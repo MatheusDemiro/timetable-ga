@@ -1,22 +1,40 @@
 import random
 
 from database.database import Database
-from settings import PERIOD_QUANTITY, LESSONS_PER_DAY, WEEK_SIZE, POPULATION_SIZE
+from models.evaluation import Evaluation
+from settings import TOTAL_PERIODS, LESSONS_PER_DAY, WEEK_SIZE, POPULATION_SIZE
 
 
 class Population:
     def __init__(self, size=POPULATION_SIZE):
         self.size = size
         self.database = Database()
-        self.periods = {i+1: [] for i in range(PERIOD_QUANTITY)}
+        self.individuals = []
 
         self.initialize()
+
+    # @staticmethod
+    # def get_lesson_of_day(lesson_list):
+    #     lessons_of_day = [None] * LESSONS_PER_DAY
+    #     for i in range(LESSONS_PER_DAY):
+    #         if len(lesson_list) > 0:
+    #             index = random.randrange(len(lesson_list))
+    #             lesson = lesson_list[index]
+    #             if lesson.subject.lessons_per_week > 0:
+    #                 lesson.subject.lessons_per_week -= 1
+    #                 lessons_of_day[i] = lesson
+    #
+    #                 if lesson.subject.lessons_per_week == 0:
+    #                     del lesson_list[index]
+    #
+    #     return lessons_of_day
 
     @staticmethod
     def get_lesson_of_day(lesson_list):
         lessons_of_day = [None] * LESSONS_PER_DAY
         for i in range(LESSONS_PER_DAY):
-            lesson = lesson_list[random.randrange(len(lesson_list))]
+            index = random.randrange(len(lesson_list))
+            lesson = lesson_list[index]
             if lesson.subject.lessons_per_week > 0:
                 lesson.subject.lessons_per_week -= 1
                 lessons_of_day[i] = lesson
@@ -32,20 +50,11 @@ class Population:
         return individual
 
     def initialize(self):
-        for period in range(PERIOD_QUANTITY):
-            generations = []
-            for size in range(POPULATION_SIZE):
+        for size in range(POPULATION_SIZE):
+            evaluation = Evaluation(individual=[])
+            for period in range(TOTAL_PERIODS):
                 lessons = list(filter(lambda x: x.subject.period == period + 1, self.database.get_lessons()))
-                individual = self.generate_individual(lessons)
+                evaluation.individual.append(self.generate_individual(lessons))
 
-                generations.append(individual)
-
-            self.periods[period+1].append(generations)
-
-    def fitness(self, individual):
-        """ Return 1/((somatório[x, p=1](ap + vp + up)) + ch) """
-
-        # calcular quantidade de aulas vagas no primeiro horário
-        # calcular quantidade de aulas vagas entre aulas
-        # calcular quantidade de aulas que são ofertadas apenas no último horário
-        # calcular quantidade de choques de horários entre os períodos
+            evaluation.calculate_fitness()
+            self.individuals.append(evaluation)

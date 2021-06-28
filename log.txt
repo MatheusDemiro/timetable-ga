@@ -1,0 +1,46 @@
+Na versão 1, o algoritmo considera que um indivíduo é representado pelo período. Já na versão 2 o algoritmo considera um
+indivíduo como sendo o conjunto de períodos (semestre), ou seja, cada invidíduo da população possuíra um conjunto de
+horários. A representação é um vetor de matrizes, onde temos a classe Population que possui um array chamado
+"individuals" que guarda uma coleção de objetos da classe Evaluation. Esta última classe armazena o fitness e a matriz
+com os horários dos períodos.
+	poppulation = Population(individuals: [ Evaluation -> {fitness, individual: [[['seg'], ['ter'], ['qua'], ['qui'], ['sex']], [['seg'], ['ter'], ['qua'], ['qui'], ['sex']]]} ])
+	individual_1 = [[['seg'], ['ter'], ['qua'], ['qui'], ['sex']], [['seg'], ['ter'], ['qua'], ['qui'], ['sex']]]
+
+F(i) = 1/((somatório[x, p=1](ap + vp + up)) + ch)
+
+a = número de aulas vagas no primeiro horário, desde que possua aula no segundo
+horário;
+v = número de aulas vagas entre aulas;
+u = número de aulas que são ofertadas apenas no último horário em determinado(s)
+dia(s);
+ch = número de choque de horários nos períodos;
+
+
+A seleção dos pais é realizada nos membros da população de determinado período. Por exemplo, para o 1º período apenas
+os indivíduos desse período serão utilizados pelo operador de seleção e assim por diante.
+
+
+Dúvidas:
+    Devo considerar a quantidade de aulas por semana ao gerar a população? Ou simplesmente ignoro? Na segunda opção será
+    possível ter classes que não cumpriram a devida carga horária na semana, dessa forma, posso adicionar isso como uma
+    nova infração na função de avaliação?
+    Posso considerar o indivíduo como sendo o "semestre" ao invés do "período"?
+    No cruzamento em ordem o que acontece quando uma turma não inserida do pai1 não está presente no vetor do pai2?
+
+
+Atividades
+	26/06
+		- Definindo as variáveis do problema e a base de dados (OK)
+		- Geração da população inicial (OK)
+		- Redefinição das variáveis utilizadas na função de avaliação (OK)
+			- OBS.: por falta de detalhes foram descartadas as variáveis "pf" - disponibilidade dos professores (lista de
+			        preferências) - e "k" - peso atribuído ao choque de horários -  da função de avaliação.
+		- Implementação parcial da função de avaliação (faltando apenas o cálculo da variável "ch") (OK)
+
+	27/06
+		- Finalização da função de avaliação (OK)
+			- OBS.: para os indivíduos que apresentaram um fitness igual a 0 foi atribuído um fitness de valor 1.0,
+			        visto que esse indivíduo não infringiu nenhuma restrição e que a função de avaliação é de maximização.
+		- Criação da classe Crossover (OK)
+		- Implementação do método de seleção dos pais (algoritmo da roleta) (OK)
+		- Implementação do método de crossover (PENDENTE)
