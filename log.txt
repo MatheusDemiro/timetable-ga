@@ -19,13 +19,24 @@ ch = número de choque de horários nos períodos;
 A seleção dos pais é realizada nos membros da população de determinado período. Por exemplo, para o 1º período apenas
 os indivíduos desse período serão utilizados pelo operador de seleção e assim por diante.
 
+Na seleção de sobreviventes a população antiga é misturada com nova população formando um novo conjunto de indivíduos.
+Após isso são selecionados 99 indivíduos desse novo conjunto e o 100º indivíduo a ser selecionado será o de maior
+fitness do conjunto.
+
 
 Dúvidas:
-    Devo considerar a quantidade de aulas por semana ao gerar a população? Ou simplesmente ignoro? Na segunda opção será
+    1) Devo considerar a quantidade de aulas por semana ao gerar a população? Ou simplesmente ignoro? Na segunda opção será
     possível ter classes que não cumpriram a devida carga horária na semana, dessa forma, posso adicionar isso como uma
     nova infração na função de avaliação?
-    Posso considerar o indivíduo como sendo o "semestre" ao invés do "período"?
-    No cruzamento em ordem o que acontece quando uma turma não inserida do pai1 não está presente no vetor do pai2?
+        R - Sim, deve-se considerar a quantidade de aulas por semana, pois a carga horária das disciplinas devem ser
+        cumpridas.
+    2) Posso considerar o indivíduo como sendo o "semestre" ao invés do "período"?
+        R - Sim, o semestre pode ser encarado como o indivíduo do problema, sendo o período a unidade básica do problema.
+    3) No cruzamento em ordem o que acontece quando uma turma não inserida do pai1 não está presente no vetor do pai2?
+        R - Isso não vai mais acontecer pois todas as turmas estarão presentes em todos os indivíduos, porém distribuídas
+        de forma aleatória.
+    4) O TCC considera aulas no mesmo dia de uma mesma disciplina como uma infração, mas não adiciona isso na função de
+    avaliação. Devo adicionar essa infração na função de avaliação?
 
 
 Atividades
@@ -44,3 +55,27 @@ Atividades
 		- Criação da classe Crossover (OK)
 		- Implementação do método de seleção dos pais (algoritmo da roleta) (OK)
 		- Implementação do método de crossover (PENDENTE)
+
+	28/06
+	    - Buscando respostas para as dúvidas 1), 2) e 3) (OK)
+	    - Implementando as mudanças sugeridas na aula de tira dúvidas (OK)
+	        - Adicionar o peso "k" igual a 10 na função de avaliação (OK)
+	        - Considerar as aulas por semana na geração da população inicial (OK)
+	    - Finalizar implementação do método de crossover (OK)
+
+	29/06
+	    - Reunião com professor para retirar dúvidas a respeito da mutação (OK)
+	    - Definição da metodologia de mutação (OK)
+	    - Implementação do método de mutação (PARCIALMENTE FINALIZADA)
+	        - Implementação do método de correção dos intervalos vagos e de dias com aulas apenas no último horário (OK)
+	        - Implementação do método de correção de aulas sequenciais da mesma disciplina no mesmo dia (OK)
+	            - OBS.: Em caso de disciplinas ocorrerem no mesmo dia eu seleciono uma delas e realizo a troca por outra
+	                    disciplina aleatória do período. Porém, essa troca só ocorre com as disciplinas que não são
+	                    ministradas pelo mesmo professor da disciplina selecionada, além, de desconsiderar os dias em
+	                    que essa disciplina selecionada ocorre. Por exemplo, se ALGLP repete na segunda-feira e tem uma
+	                    outra ocorrência na terça-feira, então ela deve ser trocada por todas as disciplinas que ocorrem
+	                    na quarta, quinta e sexta que não são ministradas pelo mesmo professor que ela.
+	        - Implementação do método de correção dos choques de horários (PENDENTE)
+	            - OBS.: Priorizar os horários vagos do primeiro horário e depois os horários vagos no segundo horário.
+	                    Caso não seja possível considerar as prioridades então deve-se selecionar aleatoriamente uma
+	                    turma dos horários restantes.

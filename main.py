@@ -30,7 +30,7 @@ genetic_algorithm = GeneticAlgorithm(population)
 generation_number = 0
 while generation_number < GENERATIONS_NUMBER:
     # Os operadores genéticos são aplicados em toda a população (repetição do tamanho da população)
-    newPopulation = Population()
+    newPopulation = Population(size=0)
     for i in range(population.size):
         # Seleção dos pais
         parent_x, parent_y = genetic_algorithm.parent_selection()
@@ -39,11 +39,11 @@ while generation_number < GENERATIONS_NUMBER:
             # Recombinação genética com taxa de 100% para os indivíduos do mesmo período
             genetic_algorithm.crossover(child, parent_x.individual[period], parent_y.individual[period], period)
 
-        child = genetic_algorithm.crossover(parent_x, parent_y)
-        # TO-DO: Realizar mutação
         newPopulation.individuals.append(child)
 
-    for individual in population.individuals:
+        # TO-DO: realizar seleção de sobreviventes
+
+    for individual in newPopulation.individuals:
         printTimetable(individual)
         print(individual.fitness)
     generation_number += 1

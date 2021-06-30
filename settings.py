@@ -2,10 +2,11 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 SQLALCHEMY_URI = "mysql://root@localhost:3306/timetable?charset=utf8"
-POPULATION_SIZE = 20
-GENERATIONS_NUMBER = 1
+POPULATION_SIZE = 100
+GENERATIONS_NUMBER = 2
 TOTAL_PERIODS = 2
 LESSONS_PER_DAY = 3
+LESSON_HOUR = 2
 WEEK_SIZE = 5
 
 Base = declarative_base()
