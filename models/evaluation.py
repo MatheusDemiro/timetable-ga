@@ -13,15 +13,16 @@ class Evaluation:
 
     def calculate_fitness(self):
         """
-        :return: 1/((summation[x, p=1](ap + vp + up)) + (ch * k)) -> quantidade de infrações do indivíduo
+        :return: 1/((summation[x, p=1](ap + vp + up + lp)) + (ch * k)) -> quantidade de infrações do indivíduo
         """
         summation = 0
         for period in self.individual:
             ap = self.sum_empty_lessons_first_time(period)
             vp = self.sum_empty_lessons_between_lessons(period)
             up = self.sum_lessons_only_last_time(period)
+            lp = self.sum_lessons_same_day(period)
 
-            summation += ap + vp + up
+            summation += ap + vp + up + lp
 
         ch = self.sum_timing_clashes_between_periods()
         k = 10
@@ -29,7 +30,7 @@ class Evaluation:
         summation += (ch * k)
 
         if summation > 0:
-            self.fitness = 1/summation
+            self.fitness = 1 / summation
         elif summation == 0:
             self.fitness = 2.0
 
@@ -76,6 +77,83 @@ class Evaluation:
                         aux = lesson
                         self.individual[period][position[0]][position[1]] = lesson_x
                         self.individual[period][day][index_x] = aux
+
+    def fix_timing_clashes(self, period_x, period_y):
+        for column in range(WEEK_SIZE):
+            for row in range(LESSONS_PER_DAY):
+                lesson_x = period_x[column][row]
+                lesson_y = period_y[column][row]
+                random_index = random.randint(0, 1)
+                if lesson_x is not None and lesson_y is not None:
+                    if lesson_x.teacher.id == lesson_y.teacher.id:
+                        if random_index == 0:
+                            # Definindo listas de prioridades considerando period_x
+                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_x)
+
+                            # Aplicando prioridades
+                            self.apply_priorities(period_x, empty_lessons_first_time, empty_lessons_second_time, lessons,
+                                                  (column, row))
+                        else:
+                            # Definindo listas de prioridades considerando period_y
+                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_y)
+
+                            # Aplicando prioridades
+                            self.apply_priorities(period_y, empty_lessons_first_time, empty_lessons_second_time, lessons,
+                                                  (column, row))
+
+    def apply_priorities(self, period, priorities_1, priorities_2, priorities_3, indexes):
+        """
+        Corrigindo o choque de horários baseado nas prioridades
+        :param period: matriz com as turmas do período
+        :param priorities_1: lista de prioridade primária
+        :param priorities_2: lista de prioridade secundária
+        :param priorities_3: lista de prioridade terciária
+        :param indexes: tupla (column, row) com a posição do elemento a ser alterado
+        :return: None
+        """
+        if len(priorities_1) > 0:
+            # Usar primeira lista de prioridade (aulas vagas no primeiro horário)
+            self.changed_lessons(period, priorities_1, indexes)
+        elif len(priorities_2) > 0:
+            # Usar segunda lista de prioridade (aulas vagas no segundo horário)
+            self.changed_lessons(period, priorities_2, indexes)
+        else:
+            # User terceira lista de prioridade (aulas restantes)
+            self.changed_lessons(period, priorities_3, indexes)
+
+    @staticmethod
+    def changed_lessons(period, items, indexes):
+        """
+        Função que executa a troca de elementos entre :items e :period
+        :param period: matriz com itens originais do problema
+        :param items: iterável com tuplas de índices
+        :param indexes: tupla (column, row) com a posição do elemento a ser alterado
+        :return: None
+        """
+        random_lesson = items[random.randrange(len(items))]
+        aux = period[indexes[0]][indexes[1]]
+        period[indexes[0]][indexes[1]] = period[random_lesson[0]][random_lesson[1]]
+        period[random_lesson[0]][random_lesson[1]] = aux
+
+    @staticmethod
+    def get_priorities(period):
+        empty_lessons_first_time = []
+        empty_lessons_second_time = []
+        lessons = []
+
+        for column in range(WEEK_SIZE):
+            if period[column][0] is None:
+                empty_lessons_first_time.append((column, 0))
+            if period[column][1] is None:
+                empty_lessons_second_time.append((column, 1))
+            for row in range(LESSONS_PER_DAY):
+                if row <= 1:
+                    if period[column][row] is not None:
+                        lessons.append((column, row))
+                else:
+                    lessons.append((column, row))
+
+        return empty_lessons_first_time, empty_lessons_second_time, lessons
 
     def get_non_teacher_lessons(self, teacher, period, day):
         lessons = []
@@ -137,13 +215,25 @@ class Evaluation:
 
         return total
 
+    @staticmethod
+    def sum_lessons_same_day(period):
+        total = 0
+        for day in range(WEEK_SIZE):
+            lessons_of_day = period[day]
+            for index_x, index_y in itertools.combinations(range(LESSONS_PER_DAY), 2):
+                lesson_x, lesson_y = lessons_of_day[index_x], lessons_of_day[index_y]
+                if lessons_of_day[index_x] is not None and lessons_of_day[index_y] is not None:
+                    if lesson_x.id == lesson_y.id:
+                        total += 1
+        return total
+
     def sum_timing_clashes_between_periods(self):
         """
         :return: quantidade de choques de horários entre os períodos
         """
         total = 0
         for period_index in range(len(self.individual)):
-            for p in range(period_index+1, len(self.individual)):
+            for p in range(period_index + 1, len(self.individual)):
                 total += self.verify_timing_clashes(self.individual[period_index], self.individual[p])
 
         return total

@@ -79,3 +79,8 @@ Atividades
 	            - OBS.: Priorizar os horários vagos do primeiro horário e depois os horários vagos no segundo horário.
 	                    Caso não seja possível considerar as prioridades então deve-se selecionar aleatoriamente uma
 	                    turma dos horários restantes.
+
+	30/06
+	    - Implementação do método de correção dos choques de horários (OK)
+	    - Implementação da seleção de sobreviventes (OK)
+	    - Finalização do algoritmo genético (OK)

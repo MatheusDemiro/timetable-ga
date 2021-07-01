@@ -1,3 +1,6 @@
+import itertools
+import time
+
 from prettytable import PrettyTable
 
 from algorithm.genetic_algorithm import GeneticAlgorithm
@@ -24,26 +27,44 @@ def printTimetable(evaluation):
         print(table)
 
 
-population = Population()
-genetic_algorithm = GeneticAlgorithm(population)
+actual_population = Population()
+
+start = time.time()
 
 generation_number = 0
 while generation_number < GENERATIONS_NUMBER:
-    # Os operadores genéticos são aplicados em toda a população (repetição do tamanho da população)
+    genetic_algorithm = GeneticAlgorithm(actual_population)
+
     newPopulation = Population(size=0)
-    for i in range(population.size):
+    newPopulation.size = actual_population.size
+    for i in range(actual_population.size):
         # Seleção dos pais
         parent_x, parent_y = genetic_algorithm.parent_selection()
+
+        # Filho
         child = Evaluation()
-        for period in range(TOTAL_PERIODS):
-            # Recombinação genética com taxa de 100% para os indivíduos do mesmo período
-            genetic_algorithm.crossover(child, parent_x.individual[period], parent_y.individual[period], period)
+
+        # Recombinação genética com taxa de 100% para os indivíduos do mesmo período
+        genetic_algorithm.crossover(child, parent_x, parent_y)
+
+        # Recalculando fitness após crossover
+        child.calculate_fitness()
+
+        # Realizar mutação de todos os indivíduos
+        genetic_algorithm.mutation(child)
+
+        # Recalculando fitness após mutação
+        child.calculate_fitness()
 
         newPopulation.individuals.append(child)
 
-        # TO-DO: realizar seleção de sobreviventes
+    actual_population = genetic_algorithm.selection_of_survivors(newPopulation)
 
     for individual in newPopulation.individuals:
         printTimetable(individual)
         print(individual.fitness)
     generation_number += 1
+
+end = time.time()
+
+print("TEMPO DE EXECUÇÃO %f" % (end - start))
