@@ -14,6 +14,13 @@ class Lesson(Base):
     teacher = relationship('Teacher', lazy='subquery')
     subject = relationship('Subject', lazy='subquery')
 
+    def __eq__(self, other):
+        if not isinstance(other, Lesson):
+            return NotImplemented
+
+        if other is not None:
+            return self.id == other.id
+
     def __str__(self):
         return "Lesson %d: (%s, %s, %s, %s, %d)" % (self.id, self.subject.code, self.subject.name, self.teacher.name,
                                                     self.semester, self.subject.lessons_per_week)

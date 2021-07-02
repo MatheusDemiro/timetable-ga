@@ -11,6 +11,9 @@ class Evaluation:
         self.individual = individual
         self.fitness = -1
 
+    def __eq__(self, other):
+        return self.individual == other.individual
+
     def calculate_fitness(self):
         """
         :return: 1/((summation[x, p=1](ap + vp + up + lp)) + (ch * k)) -> quantidade de infrações do indivíduo

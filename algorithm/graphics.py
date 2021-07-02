@@ -25,8 +25,8 @@ class Graphics:
         print("PIOR INDIVÍDUO (VARIAÇÃO): %f - %f" % (min(self.low_fitness_individuals),
                                                       max(self.low_fitness_individuals)))
 
-        self.show_graphic(axis_x, self.low_fitness_individuals, "Aptidão dos piores indivíduos", "Geração", "Aptidão",
-                          './figures/low_fitness_individuals.png')
+        self.show_graphic(axis_x, self.low_fitness_individuals, "Aptidão dos piores indivíduos de cada geração",
+                          "Geração", "Aptidão", './figures/low_fitness_individuals.png')
 
     @staticmethod
     def show_graphic(axis_x, axis_y, title, x_label, y_label, filename):

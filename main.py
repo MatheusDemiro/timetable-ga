@@ -77,7 +77,7 @@ while generation_number < GENERATIONS_NUMBER:
 end = time.time()
 
 print("TEMPO DE EXECUÇÃO %f" % (end - start))
-
+print("\n")
 
 graphics = Graphics(average_fitness=average_fitness, low_fitness_individuals=low_fitness_individuals)
 
@@ -86,7 +86,6 @@ graphics.show_average_individuals_low_fitness()
 
 
 # Melhor indivíduo de todas as gerações
-print("\n")
 print_timetable(best_individual)
 print("\nAPTIDÃO DO MELHOR INDIVÍDUO: %.4f" % best_individual.fitness)
 

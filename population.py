@@ -15,6 +15,9 @@ class Population:
 
         self.initialize()
 
+    def __eq__(self, other):
+        return self.individuals == other.individuals
+
     @staticmethod
     def get_lesson_of_day(lesson_list):
         lessons_of_day = [None] * LESSONS_PER_DAY
