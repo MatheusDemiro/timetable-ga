@@ -121,7 +121,7 @@ class Evaluation:
             # Usar segunda lista de prioridade (aulas vagas no segundo horário)
             self.changed_lessons(period, priorities_2, indexes)
         else:
-            # User terceira lista de prioridade (aulas restantes)
+            # Usar terceira lista de prioridade (aulas restantes)
             self.changed_lessons(period, priorities_3, indexes)
 
     @staticmethod
