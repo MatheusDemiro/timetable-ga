@@ -4,6 +4,7 @@ import time
 from prettytable import PrettyTable
 
 from algorithm.genetic_algorithm import GeneticAlgorithm
+from algorithm.graphics import Graphics
 from models.evaluation import Evaluation
 from population import Population
 from settings import LESSONS_PER_DAY, GENERATIONS_NUMBER, TOTAL_PERIODS
@@ -14,7 +15,7 @@ from settings import LESSONS_PER_DAY, GENERATIONS_NUMBER, TOTAL_PERIODS
 # Na versão 2 o algoritmo considera um indivíduo como sendo o conjunto de períodos
 
 
-def printTimetable(evaluation):
+def print_timetable(evaluation):
     for period in evaluation.individual:
         table = PrettyTable(['seg', 'ter', 'qua', 'qui', 'sex'])
         for j in range(LESSONS_PER_DAY):
@@ -32,6 +33,11 @@ actual_population = Population()
 start = time.time()
 
 generation_number = 0
+
+average_fitness = []
+low_fitness_individuals = []
+
+best_individual = None
 while generation_number < GENERATIONS_NUMBER:
     genetic_algorithm = GeneticAlgorithm(actual_population)
 
@@ -60,11 +66,27 @@ while generation_number < GENERATIONS_NUMBER:
 
     actual_population = genetic_algorithm.selection_of_survivors(newPopulation)
 
-    for individual in newPopulation.individuals:
-        printTimetable(individual)
-        print(individual.fitness)
+    best_individual = max(actual_population.individuals, key=lambda x: x.fitness)
+
+    average_fitness.append(sum(individual.fitness for individual in actual_population.individuals) /
+                           actual_population.size)
+    low_fitness_individuals.append(min(actual_population.individuals, key=lambda x: x.fitness).fitness)
+
     generation_number += 1
 
 end = time.time()
 
 print("TEMPO DE EXECUÇÃO %f" % (end - start))
+
+
+graphics = Graphics(average_fitness=average_fitness, low_fitness_individuals=low_fitness_individuals)
+
+graphics.show_average_fitness()
+graphics.show_average_individuals_low_fitness()
+
+
+# Melhor indivíduo de todas as gerações
+print("\n")
+print_timetable(best_individual)
+print("\nAPTIDÃO DO MELHOR INDIVÍDUO: %.4f" % best_individual.fitness)
+

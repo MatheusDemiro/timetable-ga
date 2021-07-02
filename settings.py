@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 SQLALCHEMY_URI = "mysql://root@localhost:3306/timetable?charset=utf8"
 POPULATION_SIZE = 100
-GENERATIONS_NUMBER = 100
+GENERATIONS_NUMBER = 200
 TOTAL_PERIODS = 2
 LESSONS_PER_DAY = 3
 LESSON_HOUR = 2

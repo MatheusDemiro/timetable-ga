@@ -84,3 +84,9 @@ Atividades
 	    - Implementação do método de correção dos choques de horários (OK)
 	    - Implementação da seleção de sobreviventes (OK)
 	    - Finalização do algoritmo genético (OK)
+
+	01/07
+	    - Extraindo informações para a apresentação (OK)
+	    - Criando o gráfico com as médias de aptidão das gerações (OK)
+	    - Criando o gráfico com os valores de fitness dos piores indivíduos de cada geração (OK)
+	    - Imprimindo o melhor indivíduo de todas as gerações (OK)
