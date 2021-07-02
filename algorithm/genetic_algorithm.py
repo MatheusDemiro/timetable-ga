@@ -66,10 +66,10 @@ class GeneticAlgorithm:
         # Selecionando 99 indivíduos (POPULATION_SIZE - 1) usando o algoritmo da roleta
         for i in range(POPULATION_SIZE - 1):
             random_individual = self.roulette_wheel_selection()
-            resulting_population.individuals.append(random_individual)
+            while random_individual in resulting_population.individuals:
+                random_individual = self.roulette_wheel_selection()
 
-            self.population.individuals.remove(random_individual)
-            self.recalculate_fitness()
+            resulting_population.individuals.append(random_individual)
 
         # Adicionando o indivíduo mais apto da população
         resulting_population.individuals.append(self.get_best_individual())

@@ -84,6 +84,7 @@ graphics = Graphics(average_fitness=average_fitness, low_fitness_individuals=low
 graphics.show_average_fitness()
 graphics.show_average_individuals_low_fitness()
 
+print("\n")
 
 # Melhor indivíduo de todas as gerações
 print_timetable(best_individual)
