@@ -1,4 +1,3 @@
-import itertools
 import time
 
 from prettytable import PrettyTable

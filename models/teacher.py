@@ -11,3 +11,4 @@ class Teacher(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(255))
     lessons = relationship(Lesson, backref="teacher_lesson")
+    availabilities = relationship('Availability', lazy='subquery')

@@ -24,8 +24,9 @@ class Evaluation:
             vp = self.sum_empty_lessons_between_lessons(period)
             up = self.sum_lessons_only_last_time(period)
             lp = self.sum_lessons_same_day(period)
+            pf = self.sum_preferences(period)
 
-            summation += ap + vp + up + lp
+            summation += ap + vp + up + lp + pf
 
         ch = self.sum_timing_clashes_between_periods()
         k = 10
@@ -228,6 +229,21 @@ class Evaluation:
                 if lessons_of_day[index_x] is not None and lessons_of_day[index_y] is not None:
                     if lesson_x.id == lesson_y.id:
                         total += 1
+        return total
+
+    @staticmethod
+    def sum_preferences(period):
+        total = 0
+        for day in range(WEEK_SIZE):
+            lessons_of_day = period[day]
+            for lesson in lessons_of_day:
+                if lesson is not None:
+                    result = False
+                    for availability in lesson.teacher.availabilities:
+                        if availability.day_of_week == day:
+                            result = True
+                        if not result:
+                            total += 1
         return total
 
     def sum_timing_clashes_between_periods(self):
