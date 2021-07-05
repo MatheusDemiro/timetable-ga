@@ -95,15 +95,30 @@ class Evaluation:
                             empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_x)
 
                             # Aplicando prioridades
-                            self.apply_priorities(period_x, empty_lessons_first_time, empty_lessons_second_time, lessons,
+                            self.apply_priorities(period_x, empty_lessons_first_time, empty_lessons_second_time,
+                                                  lessons,
                                                   (column, row))
                         else:
                             # Definindo listas de prioridades considerando period_y
                             empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_y)
 
                             # Aplicando prioridades
-                            self.apply_priorities(period_y, empty_lessons_first_time, empty_lessons_second_time, lessons,
+                            self.apply_priorities(period_y, empty_lessons_first_time, empty_lessons_second_time,
+                                                  lessons,
                                                   (column, row))
+
+    def fix_teachers_preferences(self, period):
+        for day in range(WEEK_SIZE):
+            lessons_of_day = self.individual[period][day]
+            for index_lesson in range(len(lessons_of_day)):
+                if lessons_of_day[index_lesson] is not None:
+                    teacher = lessons_of_day[index_lesson].teacher
+                    if not self.verify_availability(teacher.availabilities, day):
+                        day_of_week = teacher.availabilities[random.randrange(len(teacher.availabilities))].day_of_week
+                        time_of_day = random.randrange(LESSONS_PER_DAY)
+                        aux = self.individual[period][day_of_week][time_of_day]
+                        self.individual[period][day_of_week][time_of_day] = self.individual[period][day][index_lesson]
+                        self.individual[period][day][index_lesson] = aux
 
     def apply_priorities(self, period, priorities_1, priorities_2, priorities_3, indexes):
         """
@@ -269,3 +284,12 @@ class Evaluation:
                         total += 1
 
         return total
+
+    @staticmethod
+    def verify_availability(availabilities, day):
+        result = False
+        for availability in availabilities:
+            if availability.day_of_week == day:
+                result = True
+                break
+        return result

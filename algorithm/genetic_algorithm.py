@@ -52,6 +52,8 @@ class GeneticAlgorithm:
             # Corrigindo aulas sequenciais no mesmo dia de uma disciplina
             child.fix_lessons_same_day(period)
 
+            child.fix_teachers_preferences(period)
+
         for index_x, index_y in itertools.combinations(range(TOTAL_PERIODS), 2):
             # Corrigindo choques de horários entre períodos
             child.fix_timing_clashes(child.individual[index_x], child.individual[index_y])
