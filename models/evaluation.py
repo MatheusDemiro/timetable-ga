@@ -108,6 +108,11 @@ class Evaluation:
                                                   (column, row))
 
     def fix_teachers_preferences(self, period):
+        """
+        Corrigindo a disponibilidade dos professores
+        :param period: indíce do período selecionado
+        :return: None
+        """
         for day in range(WEEK_SIZE):
             lessons_of_day = self.individual[period][day]
             for index_lesson in range(len(lessons_of_day)):

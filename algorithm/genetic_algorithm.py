@@ -26,18 +26,23 @@ class GeneticAlgorithm:
             period_parent_x, period_parent_y = parent_x.individual[period], parent_y.individual[period]
             selection_matrix = self.generate_selection_matrix()
             non_inherited_lessons = []
+            indexes = []
             for column in range(WEEK_SIZE):
                 for row in range(LESSONS_PER_DAY):
                     if selection_matrix[column][row]:
                         child.individual[period][column][row] = period_parent_x[column][row]
                     else:
                         child.individual[period][column][row] = 0
+                        indexes.append((period, column, row))
                         non_inherited_lessons.append(period_parent_x[column][row])
 
+            # Ordenando lista de disciplinas que não foram herdadas do parent_x
             new_parent_y = self.order(non_inherited_lessons, period_parent_y)
 
             # Inserindo em ordem as características não herdadas do parent_x
-            self.inherit_from_second_parent(child, new_parent_y, period)
+            for i in range(len(new_parent_y)):
+                period, column, row = indexes[i]
+                child.individual[period][column][row] = new_parent_y[i]
 
     @staticmethod
     def mutation(child):

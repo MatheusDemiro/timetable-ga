@@ -38,6 +38,7 @@ low_fitness_individuals = []
 
 best_individual = None
 while generation_number < GENERATIONS_NUMBER:
+    start_generation = time.time()
     genetic_algorithm = GeneticAlgorithm(actual_population)
 
     newPopulation = Population(size=0)
@@ -72,6 +73,9 @@ while generation_number < GENERATIONS_NUMBER:
     low_fitness_individuals.append(min(actual_population.individuals, key=lambda x: x.fitness).fitness)
 
     generation_number += 1
+    end_generation = time.time()
+
+    # print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - %f" % (generation_number, end_generation - start_generation))
 
 end = time.time()
 
