@@ -70,7 +70,6 @@ class Database:
             Subject(id=8, name="ORGANIZAÇÃO SISTEMAS E MÉTODOS", code="OSM", period=2, lessons_per_week=2),
             Subject(id=9, name="PROGRAMAÇÃO ORIENTADA A OBJETOS I", code="POOI", period=2, lessons_per_week=2),
             Subject(id=10, name="ÁLGEBRA LINEAR", code="AL", period=2, lessons_per_week=2)
-
         ]
 
         lessons = [
@@ -86,24 +85,50 @@ class Database:
             Lesson(id=10, subject_id=10, teacher_id=8, semester="2012.1", teacher=teachers[7], subject=subjects[9])
         ]
 
+        '''
+        FMAT - Luciano - ID 1 - 0,1,2,3 - SEG,TER,QUA,QUI
+        ALGLP - FLAVIUS - ID 2 - 0,1,2,3 - SEG,TER,QUA,QUI
+        LOG,ED - JOÃO PAULO - ID 3 - 0,1,2,3,4 - SEG,TER,QUA,QUI,SEX
+        II - LUIZ PAULO - ID 4 - 1,3 - TER,QUI
+        TGA,FSI - GILSON - ID 5 - 2,3,4 - QUA,QUI,SEX
+        OSM - KARLIANE - ID 6 - 0,1,2,3,4 - SEG,TER,QUA,QUI,SEX
+        POOI - FABRÍCIO - ID 7 - 0,1,2,4 - SEG,TER,QUA,SEX
+        AL - DEILSON - ID 8 - 0,1,2,3,4 - SEG,TER,QUA,QUI,SEX
+        '''
+
         availabilities = [
-            Availability(id=1, teacher_id=1, day_of_week=1, teacher=teachers[0]),
-            Availability(id=2, teacher_id=1, day_of_week=4, teacher=teachers[0]),
-            Availability(id=3, teacher_id=2, day_of_week=0, teacher=teachers[1]),
-            Availability(id=4, teacher_id=2, day_of_week=3, teacher=teachers[1]),
-            Availability(id=5, teacher_id=3, day_of_week=1, teacher=teachers[2]),
-            Availability(id=6, teacher_id=3, day_of_week=3, teacher=teachers[2]),
-            Availability(id=7, teacher_id=4, day_of_week=0, teacher=teachers[3]),
-            Availability(id=8, teacher_id=4, day_of_week=4, teacher=teachers[3]),
-            Availability(id=9, teacher_id=5, day_of_week=1, teacher=teachers[4]),
-            Availability(id=10, teacher_id=5, day_of_week=2, teacher=teachers[4]),
-            Availability(id=11, teacher_id=5, day_of_week=0, teacher=teachers[4]),
-            Availability(id=12, teacher_id=6, day_of_week=0, teacher=teachers[5]),
-            Availability(id=13, teacher_id=6, day_of_week=1, teacher=teachers[5]),
-            Availability(id=14, teacher_id=7, day_of_week=1, teacher=teachers[6]),
-            Availability(id=15, teacher_id=7, day_of_week=2, teacher=teachers[6]),
-            Availability(id=16, teacher_id=8, day_of_week=2, teacher=teachers[7]),
-            Availability(id=17, teacher_id=8, day_of_week=3, teacher=teachers[7]),
+            Availability(id=1, teacher_id=1, day_of_week=0, teacher=teachers[0]),
+            Availability(id=2, teacher_id=1, day_of_week=1, teacher=teachers[0]),
+            Availability(id=3, teacher_id=1, day_of_week=2, teacher=teachers[0]),
+            Availability(id=4, teacher_id=1, day_of_week=3, teacher=teachers[0]),
+            Availability(id=5, teacher_id=2, day_of_week=0, teacher=teachers[1]),
+            Availability(id=6, teacher_id=2, day_of_week=1, teacher=teachers[2]),
+            Availability(id=7, teacher_id=2, day_of_week=2, teacher=teachers[2]),
+            Availability(id=8, teacher_id=2, day_of_week=3, teacher=teachers[3]),
+            Availability(id=9, teacher_id=3, day_of_week=0, teacher=teachers[3]),
+            Availability(id=10, teacher_id=3, day_of_week=1, teacher=teachers[4]),
+            Availability(id=11, teacher_id=3, day_of_week=2, teacher=teachers[4]),
+            Availability(id=12, teacher_id=3, day_of_week=3, teacher=teachers[4]),
+            Availability(id=13, teacher_id=3, day_of_week=4, teacher=teachers[5]),
+            Availability(id=14, teacher_id=4, day_of_week=1, teacher=teachers[5]),
+            Availability(id=15, teacher_id=4, day_of_week=3, teacher=teachers[5]),
+            Availability(id=16, teacher_id=5, day_of_week=2, teacher=teachers[6]),
+            Availability(id=17, teacher_id=5, day_of_week=3, teacher=teachers[6]),
+            Availability(id=18, teacher_id=5, day_of_week=4, teacher=teachers[7]),
+            Availability(id=19, teacher_id=6, day_of_week=0, teacher=teachers[7]),
+            Availability(id=20, teacher_id=6, day_of_week=1, teacher=teachers[7]),
+            Availability(id=21, teacher_id=6, day_of_week=2, teacher=teachers[7]),
+            Availability(id=22, teacher_id=6, day_of_week=3, teacher=teachers[7]),
+            Availability(id=23, teacher_id=6, day_of_week=4, teacher=teachers[7]),
+            Availability(id=24, teacher_id=7, day_of_week=0, teacher=teachers[3]),
+            Availability(id=25, teacher_id=7, day_of_week=1, teacher=teachers[4]),
+            Availability(id=26, teacher_id=7, day_of_week=2, teacher=teachers[4]),
+            Availability(id=27, teacher_id=7, day_of_week=4, teacher=teachers[4]),
+            Availability(id=28, teacher_id=8, day_of_week=0, teacher=teachers[5]),
+            Availability(id=29, teacher_id=8, day_of_week=1, teacher=teachers[5]),
+            Availability(id=30, teacher_id=8, day_of_week=2, teacher=teachers[5]),
+            Availability(id=31, teacher_id=8, day_of_week=3, teacher=teachers[5]),
+            Availability(id=32, teacher_id=8, day_of_week=4, teacher=teachers[5]),
         ]
 
         self.session.bulk_save_objects(teachers)

@@ -51,17 +51,18 @@ class GeneticAlgorithm:
         :return: None
         """
         for period in range(TOTAL_PERIODS):
-            # Corrigindo intervalos vagos entre aulas
-            child.fix_empty_lessons(period)
-
             # Corrigindo aulas sequenciais no mesmo dia de uma disciplina
             child.fix_lessons_same_day(period)
 
+            # Corrigindo intervalos vagos entre aulas
+            child.fix_empty_lessons(period)
+
+            # Corrigindo disponibilidade dos professores
             child.fix_teachers_preferences(period)
 
-        for index_x, index_y in itertools.combinations(range(TOTAL_PERIODS), 2):
             # Corrigindo choques de horários entre períodos
-            child.fix_timing_clashes(child.individual[index_x], child.individual[index_y])
+            for index_x, index_y in itertools.combinations(range(TOTAL_PERIODS), 2):
+                child.fix_timing_clashes(child.individual[index_x], child.individual[index_y])
 
     def selection_of_survivors(self, new_population):
         # Juntar população antiga com nova população (self.population + new_population)

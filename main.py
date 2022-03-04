@@ -35,6 +35,7 @@ generation_number = 0
 
 average_fitness = []
 low_fitness_individuals = []
+best_individuals = []
 
 best_individual = None
 while generation_number < GENERATIONS_NUMBER:
@@ -68,6 +69,8 @@ while generation_number < GENERATIONS_NUMBER:
 
     best_individual = max(actual_population.individuals, key=lambda x: x.fitness)
 
+    best_individuals.append(best_individual)
+
     average_fitness.append(sum(individual.fitness for individual in actual_population.individuals) /
                            actual_population.size)
     low_fitness_individuals.append(min(actual_population.individuals, key=lambda x: x.fitness).fitness)
@@ -92,4 +95,9 @@ print("\n")
 # Melhor indivíduo de todas as gerações
 print_timetable(best_individual)
 print("\nAPTIDÃO DO MELHOR INDIVÍDUO: %.4f" % best_individual.fitness)
+
+generation = 1
+for i in best_individuals:
+    print("Melhor indivíduo da geração %i: %.4f" % (generation, best_individual.fitness))
+    generation += 1
 
