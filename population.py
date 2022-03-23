@@ -4,7 +4,7 @@ from database.database import Database
 from models.evaluation import Evaluation
 from models.lesson import Lesson
 from models.subject import Subject
-from settings import TOTAL_PERIODS, LESSONS_PER_DAY, WEEK_SIZE, POPULATION_SIZE
+from settings import PERIODS, LESSONS_PER_DAY, WEEK_SIZE, POPULATION_SIZE
 
 
 class Population:
@@ -48,8 +48,8 @@ class Population:
     def initialize(self):
         for size in range(self.size):
             evaluation = Evaluation(individual=[])
-            for period in range(TOTAL_PERIODS):
-                lessons = list(filter(lambda x: x.subject.period == period + 1, self.database.get_lessons()))
+            for period in range(1, max(PERIODS)+1):
+                lessons = list(filter(lambda x: x.subject.period == period, self.database.get_lessons()))
                 self.empty_lessons(lessons)
                 evaluation.individual.append(self.generate_individual(lessons))
 

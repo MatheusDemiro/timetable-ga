@@ -12,5 +12,6 @@ class Subject(Base):
     name = Column(String(255))
     code = Column(String(255))
     period = Column(Integer)
+    shift = Column(String(1))
     lessons_per_week = Column(Integer)
     lessons = relationship(Lesson, backref="subject_lesson")

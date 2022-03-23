@@ -5,7 +5,7 @@ import random
 import itertools
 
 from population import Population
-from settings import LESSONS_PER_DAY, WEEK_SIZE, TOTAL_PERIODS, POPULATION_SIZE
+from settings import LESSONS_PER_DAY, WEEK_SIZE, PERIODS, POPULATION_SIZE, EXCLUSIVE_DEDICATION
 
 
 class GeneticAlgorithm:
@@ -22,18 +22,18 @@ class GeneticAlgorithm:
         :param parent_y: pai 2 selecionado aleatoriamente pela roleta
         :return: None
         """
-        for period in range(TOTAL_PERIODS):
-            period_parent_x, period_parent_y = parent_x.individual[period], parent_y.individual[period]
+        for period in PERIODS:
+            period_parent_x, period_parent_y = parent_x.individual[period-1], parent_y.individual[period-1]
             selection_matrix = self.generate_selection_matrix()
             non_inherited_lessons = []
             indexes = []
             for column in range(WEEK_SIZE):
                 for row in range(LESSONS_PER_DAY):
                     if selection_matrix[column][row]:
-                        child.individual[period][column][row] = period_parent_x[column][row]
+                        child.individual[period-1][column][row] = period_parent_x[column][row]
                     else:
-                        child.individual[period][column][row] = 0
-                        indexes.append((period, column, row))
+                        child.individual[period-1][column][row] = 0
+                        indexes.append((period-1, column, row))
                         non_inherited_lessons.append(period_parent_x[column][row])
 
             # Ordenando lista de disciplinas que não foram herdadas do parent_x
@@ -50,19 +50,20 @@ class GeneticAlgorithm:
         :param child: filho que irá sofrer mutação (correção de anomalias)
         :return: None
         """
-        for period in range(TOTAL_PERIODS):
+        for period in PERIODS:
             # Corrigindo aulas sequenciais no mesmo dia de uma disciplina
-            child.fix_lessons_same_day(period)
+            child.fix_lessons_same_day(period-1)
 
             # Corrigindo intervalos vagos entre aulas
-            child.fix_empty_lessons(period)
+            child.fix_empty_lessons(period-1)
 
             # Corrigindo disponibilidade dos professores
-            child.fix_teachers_preferences(period)
+            if not EXCLUSIVE_DEDICATION:
+                child.fix_teachers_preferences(period-1)
 
             # Corrigindo choques de horários entre períodos
-            for index_x, index_y in itertools.combinations(range(TOTAL_PERIODS), 2):
-                child.fix_timing_clashes(child.individual[index_x], child.individual[index_y])
+            for index_x, index_y in itertools.combinations(PERIODS, 2):
+                child.fix_timing_clashes(child.individual[index_x-1], child.individual[index_y-1])
 
     def selection_of_survivors(self, new_population):
         # Juntar população antiga com nova população (self.population + new_population)

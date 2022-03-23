@@ -1,13 +1,13 @@
 import itertools
 import random
 
-from settings import WEEK_SIZE, LESSONS_PER_DAY, TOTAL_PERIODS
+from settings import WEEK_SIZE, LESSONS_PER_DAY, PERIODS, EXCLUSIVE_DEDICATION
 
 
 class Evaluation:
     def __init__(self, individual=None):
         if individual is None:
-            individual = [[[None for i in range(3)] for j in range(5)] for k in range(TOTAL_PERIODS)]
+            individual = [[[None for i in range(3)] for j in range(5)] for k in range(max(PERIODS))]
         self.individual = individual
         self.fitness = -1
 
@@ -24,9 +24,13 @@ class Evaluation:
             vp = self.sum_infractions_empty_lessons_between_lessons(period)
             up = self.sum_infractions_lessons_only_last_time(period)
             lp = self.sum_infractions_lessons_same_day(period)
-            pf = self.sum_infractions_preferences(period)
 
-            print("AP: %d, VP: %d, UP: %d, LP: %d, PF: %d" % (ap, vp, up, lp, pf))
+            if not EXCLUSIVE_DEDICATION:
+                pf = self.sum_infractions_preferences(period)
+            else:
+                pf = 0
+
+            # print("AP: %d, VP: %d, UP: %d, LP: %d, PF: %d" % (ap, vp, up, lp, pf))
 
             summation += ap + vp + up + lp + pf
 
@@ -35,7 +39,7 @@ class Evaluation:
 
         summation += (ch * k)
 
-        print("CH: %d, SUM: %d" % (ch, summation))
+        # print("CH: %d, SUM: %d" % (ch, summation))
 
         if summation > 0:
             self.fitness = 1 / summation

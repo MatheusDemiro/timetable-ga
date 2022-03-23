@@ -6,7 +6,7 @@ from algorithm.genetic_algorithm import GeneticAlgorithm
 from algorithm.graphics import Graphics
 from models.evaluation import Evaluation
 from population import Population
-from settings import LESSONS_PER_DAY, GENERATIONS_NUMBER, TOTAL_PERIODS
+from settings import LESSONS_PER_DAY, GENERATIONS_NUMBER
 
 
 # Atualmente esse algoritmo considera que os professores possuem dedicação exclusiva apenas para um determinado curso,
@@ -98,6 +98,6 @@ print("\nAPTIDÃO DO MELHOR INDIVÍDUO: %.4f" % best_individual.fitness)
 
 generation = 1
 for i in best_individuals:
-    print("Melhor indivíduo da geração %i: %.4f" % (generation, best_individual.fitness))
+    print("Melhor indivíduo da geração %i: %.4f" % (generation, i.fitness))
     generation += 1
 
