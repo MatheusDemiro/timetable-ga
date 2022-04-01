@@ -15,7 +15,30 @@ class Database:
         self.engine = create_engine(SQLALCHEMY_URI)
         self.Session = sessionmaker(bind=self.engine)
         self.session = self.Session()
-        self.teachers = []
+        self.teachers = [
+            Teacher(name="LUCIANO"),  # 0
+            Teacher(name="FLAVIUS"),  # 1
+            Teacher(name="JOÃO PAULO"),  # 2
+            Teacher(name="LUIZ PAULO"),  # 3
+            Teacher(name="GILSON"),  # 4
+            Teacher(name="KARLIANE"),  # 5
+            Teacher(name="FABRÍCIO"),  # 6
+            Teacher(name="DELSON"),  # 7
+            Teacher(name="TACIANO"),  # 8
+            Teacher(name="JOÃO BORGES"),  # 9
+            Teacher(name="CELSO"),  # 10
+            Teacher(name="ROGÉRIO"),  # 11
+            Teacher(name="JOSÉ ENÉAS"),  # 12
+            Teacher(name="DÉSIO"),  # 13
+            Teacher(name="CÉLIA"),  # 14
+            Teacher(name="LEOMARQUES"),  # 15
+            Teacher(name="RICARDO"),  # 16
+            Teacher(name="TALITHA"),  # 17
+            Teacher(name="VYRNA"),  # 18
+            Teacher(name="CARLOS"),  # 19
+            Teacher(name="KARLIANE E LUIZ PAULO"),  # 20
+            Teacher(name="TIAGO")  # 21
+        ]
 
     def get_availability(self):
         availabilities = self.session.query(Availability).all()
@@ -52,30 +75,6 @@ class Database:
                                                       Availability.__table__])
 
     def create_teachers(self):
-        self.teachers = [
-            Teacher(name="LUCIANO"),  # 0
-            Teacher(name="FLAVIUS"),  # 1
-            Teacher(name="JOÃO PAULO"),  # 2
-            Teacher(name="LUIZ PAULO"),  # 3
-            Teacher(name="GILSON"),  # 4
-            Teacher(name="KARLIANE"),  # 5
-            Teacher(name="FABRÍCIO"),  # 6
-            Teacher(name="DELSON"),  # 7
-            Teacher(name="TACIANO"),  # 8
-            Teacher(name="JOÃO BORGES"),  # 9
-            Teacher(name="CELSO"),  # 10
-            Teacher(name="ROGÉRIO"),  # 11
-            Teacher(name="JOSÉ ENÉAS"),  # 12
-            Teacher(name="DÉSIO"),  # 13
-            Teacher(name="CÉLIA"),  # 14
-            Teacher(name="LEOMARQUES"),  # 15
-            Teacher(name="RICARDO"),  # 16
-            Teacher(name="TALITHA"),  # 17
-            Teacher(name="VYRNA"),  # 18
-            Teacher(name="CARLOS"),  # 19
-            Teacher(name="KARLIANE E LUIZ PAULO")  # 20
-        ]
-
         self.session.bulk_save_objects(self.teachers, True)
 
     def create_unified_database(self):
@@ -89,6 +88,8 @@ class Database:
         unified_database.period6()
         unified_database.period7()
         unified_database.period8()
+
+        unified_database.save_availabilities()
 
     def populate_database_20121(self):
         subjects = [

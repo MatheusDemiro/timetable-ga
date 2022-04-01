@@ -71,14 +71,17 @@ while generation_number < GENERATIONS_NUMBER:
 
     best_individuals.append(best_individual)
 
-    average_fitness.append(sum(individual.fitness for individual in actual_population.individuals) /
-                           actual_population.size)
+    average = sum(individual.fitness for individual in actual_population.individuals) / actual_population.size
+
+    average_fitness.append(average)
+
     low_fitness_individuals.append(min(actual_population.individuals, key=lambda x: x.fitness).fitness)
 
     generation_number += 1
     end_generation = time.time()
 
-    # print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - %f" % (generation_number, end_generation - start_generation))
+    print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - Tempo: %f - Melhor indivíduo: %f - Média: %f" %
+          (generation_number, end_generation - start_generation, best_individual.fitness, average))
 
 end = time.time()
 
