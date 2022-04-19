@@ -52,15 +52,15 @@ class UnifiedDatabase:
     @staticmethod
     def get_day_of_week(day):
         if day == 0:
-            return "segunda-feira"
+            return "SEG"
         if day == 1:
-            return "terça-feira"
+            return "TER"
         if day == 2:
-            return "quarta-feira"
+            return "QUA"
         if day == 3:
-            return "quinta-feira"
+            return "QUI"
         if day == 4:
-            return "sexta-feira"
+            return "SEX"
 
     def sort_day(self, teacher):
         days_of_week = range(0, 5)
@@ -305,12 +305,11 @@ class UnifiedDatabase:
             Availability(teacher_id=self.teachers[2].id, day_of_week=0, teacher=self.teachers[2]),
             Availability(teacher_id=self.teachers[2].id, day_of_week=1, teacher=self.teachers[2]),
             Availability(teacher_id=self.teachers[2].id, day_of_week=2, teacher=self.teachers[2]),
+            Availability(teacher_id=self.teachers[2].id, day_of_week=3, teacher=self.teachers[2]),
 
-            Availability(teacher_id=self.teachers[3].id, day_of_week=1, teacher=self.teachers[3]),
             Availability(teacher_id=self.teachers[3].id, day_of_week=2, teacher=self.teachers[3]),
             Availability(teacher_id=self.teachers[3].id, day_of_week=3, teacher=self.teachers[3]),
 
-            Availability(teacher_id=self.teachers[16].id, day_of_week=1, teacher=self.teachers[16]),
             Availability(teacher_id=self.teachers[16].id, day_of_week=2, teacher=self.teachers[16]),
             Availability(teacher_id=self.teachers[16].id, day_of_week=3, teacher=self.teachers[16]),
 
@@ -335,40 +334,41 @@ class UnifiedDatabase:
 
             Availability(teacher_id=self.teachers[12].id, day_of_week=0, teacher=self.teachers[12]),
             Availability(teacher_id=self.teachers[12].id, day_of_week=1, teacher=self.teachers[12]),
-            Availability(teacher_id=self.teachers[12].id, day_of_week=2, teacher=self.teachers[12]),
 
             Availability(teacher_id=self.teachers[13].id, day_of_week=1, teacher=self.teachers[13]),
             Availability(teacher_id=self.teachers[13].id, day_of_week=2, teacher=self.teachers[13]),
-            Availability(teacher_id=self.teachers[13].id, day_of_week=3, teacher=self.teachers[13]),
 
             Availability(teacher_id=self.teachers[7].id, day_of_week=0, teacher=self.teachers[7]),
             Availability(teacher_id=self.teachers[7].id, day_of_week=1, teacher=self.teachers[7]),
-            Availability(teacher_id=self.teachers[7].id, day_of_week=2, teacher=self.teachers[7]),
 
             Availability(teacher_id=self.teachers[14].id, day_of_week=0, teacher=self.teachers[14]),
             Availability(teacher_id=self.teachers[14].id, day_of_week=1, teacher=self.teachers[14]),
-            Availability(teacher_id=self.teachers[14].id, day_of_week=2, teacher=self.teachers[14]),
 
             Availability(teacher_id=self.teachers[19].id, day_of_week=0, teacher=self.teachers[19]),
             Availability(teacher_id=self.teachers[19].id, day_of_week=1, teacher=self.teachers[19]),
-            Availability(teacher_id=self.teachers[19].id, day_of_week=2, teacher=self.teachers[19]),
 
             Availability(teacher_id=self.teachers[21].id, day_of_week=0, teacher=self.teachers[21]),
             Availability(teacher_id=self.teachers[21].id, day_of_week=1, teacher=self.teachers[21]),
-            Availability(teacher_id=self.teachers[21].id, day_of_week=2, teacher=self.teachers[21]),
 
             Availability(teacher_id=self.teachers[17].id, day_of_week=2, teacher=self.teachers[17]),
             Availability(teacher_id=self.teachers[17].id, day_of_week=3, teacher=self.teachers[17]),
-            Availability(teacher_id=self.teachers[17].id, day_of_week=4, teacher=self.teachers[17]),
 
             Availability(teacher_id=self.teachers[15].id, day_of_week=0, teacher=self.teachers[15]),
             Availability(teacher_id=self.teachers[15].id, day_of_week=1, teacher=self.teachers[15]),
-            Availability(teacher_id=self.teachers[15].id, day_of_week=2, teacher=self.teachers[15]),
 
             Availability(teacher_id=self.teachers[18].id, day_of_week=0, teacher=self.teachers[18]),
             Availability(teacher_id=self.teachers[18].id, day_of_week=1, teacher=self.teachers[18]),
-            Availability(teacher_id=self.teachers[18].id, day_of_week=2, teacher=self.teachers[18]),
         ]
+
+        # dic = {}
+        # for i in availabilities:
+        #     if i.teacher.name not in dic:
+        #         dic[i.teacher.name] = {"DIAS": [self.get_day_of_week(i.day_of_week)]}
+        #     else:
+        #         dic[i.teacher.name]["DIAS"].append(self.get_day_of_week(i.day_of_week))
+        #
+        # for i in dic.keys():
+        #     print("%s - %s" % (i, ",".join(dic[i]["DIAS"])))
 
         self.session.bulk_save_objects(availabilities)
         self.session.commit()

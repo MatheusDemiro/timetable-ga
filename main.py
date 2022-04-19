@@ -1,4 +1,5 @@
 import time
+import gc
 
 from prettytable import PrettyTable
 
@@ -65,6 +66,8 @@ while generation_number < GENERATIONS_NUMBER:
 
         newPopulation.individuals.append(child)
 
+        best_individual = child
+
     actual_population = genetic_algorithm.selection_of_survivors(newPopulation)
 
     best_individual = max(actual_population.individuals, key=lambda x: x.fitness)
@@ -83,6 +86,12 @@ while generation_number < GENERATIONS_NUMBER:
     print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - Tempo: %f - Melhor indivíduo: %f - Média: %f" %
           (generation_number, end_generation - start_generation, best_individual.fitness, average))
 
+    gc.collect()
+    gc.get_stats()
+
+    # if best_individual.fitness == 2:
+    #     break
+
 end = time.time()
 
 print("TEMPO DE EXECUÇÃO %f" % (end - start))
@@ -98,6 +107,15 @@ print("\n")
 # Melhor indivíduo de todas as gerações
 print_timetable(best_individual)
 print("\nAPTIDÃO DO MELHOR INDIVÍDUO: %.4f" % best_individual.fitness)
+print("\nCOMPONENTES FITNESS:")
+print("\t ap: %s" % best_individual.summation['ap'])
+print("\t vp: %s" % best_individual.summation['vp'])
+print("\t up: %s" % best_individual.summation['up'])
+print("\t lp: %s" % best_individual.summation['lp'])
+print("\t pf: %s" % best_individual.summation['pf'])
+print("\t ch: %s" % best_individual.summation['ch'])
+print("\t Total: %i" % ((sum(best_individual.summation.values()) - best_individual.summation['ch']) +
+                        (best_individual.summation['ch'] * 10)))
 
 generation = 1
 for i in best_individuals:

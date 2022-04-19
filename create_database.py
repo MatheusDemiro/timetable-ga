@@ -1,5 +1,5 @@
-from database import Database
-from unified_database import UnifiedDatabase
+from database.database import Database
+from database.unified_database import UnifiedDatabase
 
 database = Database()
 unifiedDatabase = UnifiedDatabase(database.teachers, database.session)

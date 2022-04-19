@@ -10,6 +10,21 @@ class Evaluation:
             individual = [[[None for i in range(3)] for j in range(5)] for k in range(max(PERIODS))]
         self.individual = individual
         self.fitness = -1
+        self.summation = {"ap": 0, "vp": 0, "up": 0, "lp": 0, "pf": 0, "ch": 0}
+
+    def set_summation(self, ap, vp, up, lp, pf, is_count = True):
+        if is_count:
+            self.summation["ap"] += ap
+            self.summation["vp"] += vp
+            self.summation["up"] += up
+            self.summation["lp"] += lp
+            self.summation["pf"] += pf
+        else:
+            self.summation["ap"] = ap
+            self.summation["vp"] = vp
+            self.summation["up"] = up
+            self.summation["lp"] = lp
+            self.summation["pf"] = pf
 
     def __eq__(self, other):
         return self.individual == other.individual
@@ -18,7 +33,7 @@ class Evaluation:
         """
         :return: 1/((summation[x, p=1](ap + vp + up + lp + pf)) + (ch * k)) -> quantidade de infrações do indivíduo
         """
-        summation = 0
+        summation = -1
         for period in self.individual:
             ap = self.sum_infractions_empty_lessons_first_time(period)
             vp = self.sum_infractions_empty_lessons_between_lessons(period)
@@ -32,11 +47,18 @@ class Evaluation:
 
             # print("AP: %d, VP: %d, UP: %d, LP: %d, PF: %d" % (ap, vp, up, lp, pf))
 
+            if summation == -1:
+                summation = 0
+                self.set_summation(ap, vp, up, lp, pf, False)
+            else:
+                self.set_summation(ap, vp, up, lp, pf)
+
             summation += ap + vp + up + lp + pf
 
         ch = self.sum_timing_clashes_between_periods()
         k = 10
 
+        self.summation["ch"] = ch
         summation += (ch * k)
 
         # print("CH: %d, SUM: %d" % (ch, summation))
