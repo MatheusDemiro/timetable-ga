@@ -1,31 +1,34 @@
 import time
 import gc
 
-from prettytable import PrettyTable
-
 from algorithm.genetic_algorithm import GeneticAlgorithm
 from algorithm.graphics import Graphics
 from models.evaluation import Evaluation
-from population import Population
-from settings import LESSONS_PER_DAY, GENERATIONS_NUMBER
+from models.population import Population
+from settings import GENERATIONS_NUMBER
+from utils import Utils
 
 
-# Atualmente esse algoritmo considera que os professores possuem dedicação exclusiva apenas para um determinado curso,
-# ou seja, não leva em consideração a disponibilidade e nem a preferência de horário do professor
-# Na versão 2 o algoritmo considera um indivíduo como sendo o conjunto de períodos
+# Atualmente esse algoritmo considera que os professores não possuem dedicação exclusiva, levando em consideração a
+# disponibilidade e a preferência de horário do professor
 
 
-def print_timetable(evaluation):
-    for period in evaluation.individual:
-        table = PrettyTable(['seg', 'ter', 'qua', 'qui', 'sex'])
-        for j in range(LESSONS_PER_DAY):
-            table.add_row([period[0][j].subject.code if period[0][j] is not None else None,
-                           period[1][j].subject.code if period[1][j] is not None else None,
-                           period[2][j].subject.code if period[2][j] is not None else None,
-                           period[3][j].subject.code if period[3][j] is not None else None,
-                           period[4][j].subject.code if period[4][j] is not None else None])
-
-        print(table)
+def save_best_individuals(population):
+    arq = open("files/%s.txt" % Utils.get_filename(), "w+")
+    individuals = []
+    for individual in population.individuals:
+        if individual not in individuals and individual.fitness == 2:
+            individuals.append(individual)
+    schedule = 1
+    for individual in individuals:
+        timetable = Utils.get_timetable(individual)
+        arq.writelines("Individual %d\n" % schedule)
+        for item in timetable:
+            arq.write(item.get_string())
+            arq.writelines("\n")
+        arq.writelines("\n")
+        schedule += 1
+    arq.close()
 
 
 actual_population = Population()
@@ -83,14 +86,17 @@ while generation_number < GENERATIONS_NUMBER:
     generation_number += 1
     end_generation = time.time()
 
+    if generation_number == GENERATIONS_NUMBER:
+        save_best_individuals(actual_population)
+
     print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - Tempo: %f - Melhor indivíduo: %f - Média: %f" %
           (generation_number, end_generation - start_generation, best_individual.fitness, average))
 
     gc.collect()
-    gc.get_stats()
 
-    # if best_individual.fitness == 2:
-    #     break
+    # Parando execução após encontrar indivíduo com fitness 2
+    if best_individual.fitness == 2:
+        break
 
 end = time.time()
 
@@ -105,17 +111,8 @@ graphics.show_average_individuals_low_fitness()
 print("\n")
 
 # Melhor indivíduo de todas as gerações
-print_timetable(best_individual)
-print("\nAPTIDÃO DO MELHOR INDIVÍDUO: %.4f" % best_individual.fitness)
-print("\nCOMPONENTES FITNESS:")
-print("\t ap: %s" % best_individual.summation['ap'])
-print("\t vp: %s" % best_individual.summation['vp'])
-print("\t up: %s" % best_individual.summation['up'])
-print("\t lp: %s" % best_individual.summation['lp'])
-print("\t pf: %s" % best_individual.summation['pf'])
-print("\t ch: %s" % best_individual.summation['ch'])
-print("\t Total: %i" % ((sum(best_individual.summation.values()) - best_individual.summation['ch']) +
-                        (best_individual.summation['ch'] * 10)))
+Utils.print_timetable(best_individual)
+Utils.print_best_individual(best_individual)
 
 generation = 1
 for i in best_individuals:

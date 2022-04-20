@@ -4,7 +4,7 @@ import numpy.random as npr
 import random
 import itertools
 
-from population import Population
+from models.population import Population
 from settings import LESSONS_PER_DAY, WEEK_SIZE, PERIODS, POPULATION_SIZE, EXCLUSIVE_DEDICATION
 
 
