@@ -289,13 +289,13 @@ class UnifiedDatabase:
         availabilities = [
             Availability(teacher_id=self.teachers[4].id, day_of_week=0, teacher=self.teachers[4]),
             Availability(teacher_id=self.teachers[4].id, day_of_week=1, teacher=self.teachers[4]),
+            Availability(teacher_id=self.teachers[4].id, day_of_week=2, teacher=self.teachers[4]),
             Availability(teacher_id=self.teachers[4].id, day_of_week=3, teacher=self.teachers[4]),
             Availability(teacher_id=self.teachers[4].id, day_of_week=4, teacher=self.teachers[4]),
 
-            Availability(teacher_id=self.teachers[6].id, day_of_week=0, teacher=self.teachers[6]),
+            Availability(teacher_id=self.teachers[6].id, day_of_week=1, teacher=self.teachers[6]),
             Availability(teacher_id=self.teachers[6].id, day_of_week=2, teacher=self.teachers[6]),
             Availability(teacher_id=self.teachers[6].id, day_of_week=3, teacher=self.teachers[6]),
-            Availability(teacher_id=self.teachers[6].id, day_of_week=4, teacher=self.teachers[6]),
 
             Availability(teacher_id=self.teachers[1].id, day_of_week=0, teacher=self.teachers[1]),
             Availability(teacher_id=self.teachers[1].id, day_of_week=1, teacher=self.teachers[1]),
@@ -303,74 +303,59 @@ class UnifiedDatabase:
             Availability(teacher_id=self.teachers[1].id, day_of_week=3, teacher=self.teachers[1]),
             Availability(teacher_id=self.teachers[1].id, day_of_week=4, teacher=self.teachers[1]),
 
-            Availability(teacher_id=self.teachers[2].id, day_of_week=0, teacher=self.teachers[2]),
             Availability(teacher_id=self.teachers[2].id, day_of_week=1, teacher=self.teachers[2]),
             Availability(teacher_id=self.teachers[2].id, day_of_week=2, teacher=self.teachers[2]),
-            Availability(teacher_id=self.teachers[2].id, day_of_week=3, teacher=self.teachers[2]),
+            Availability(teacher_id=self.teachers[2].id, day_of_week=4, teacher=self.teachers[2]),
 
             Availability(teacher_id=self.teachers[3].id, day_of_week=0, teacher=self.teachers[3]),
-            Availability(teacher_id=self.teachers[3].id, day_of_week=1, teacher=self.teachers[3]),
-            Availability(teacher_id=self.teachers[3].id, day_of_week=3, teacher=self.teachers[3]),
+            Availability(teacher_id=self.teachers[3].id, day_of_week=2, teacher=self.teachers[3]),
+            Availability(teacher_id=self.teachers[3].id, day_of_week=4, teacher=self.teachers[3]),
 
-            Availability(teacher_id=self.teachers[16].id, day_of_week=1, teacher=self.teachers[16]),
             Availability(teacher_id=self.teachers[16].id, day_of_week=2, teacher=self.teachers[16]),
-            Availability(teacher_id=self.teachers[16].id, day_of_week=4, teacher=self.teachers[16]),
+            Availability(teacher_id=self.teachers[16].id, day_of_week=3, teacher=self.teachers[16]),
 
             Availability(teacher_id=self.teachers[8].id, day_of_week=0, teacher=self.teachers[8]),
-            Availability(teacher_id=self.teachers[8].id, day_of_week=1, teacher=self.teachers[8]),
             Availability(teacher_id=self.teachers[8].id, day_of_week=2, teacher=self.teachers[8]),
             Availability(teacher_id=self.teachers[8].id, day_of_week=3, teacher=self.teachers[8]),
             Availability(teacher_id=self.teachers[8].id, day_of_week=4, teacher=self.teachers[8]),
 
-            Availability(teacher_id=self.teachers[0].id, day_of_week=0, teacher=self.teachers[0]),
             Availability(teacher_id=self.teachers[0].id, day_of_week=1, teacher=self.teachers[0]),
-            Availability(teacher_id=self.teachers[0].id, day_of_week=2, teacher=self.teachers[0]),
             Availability(teacher_id=self.teachers[0].id, day_of_week=3, teacher=self.teachers[0]),
+            Availability(teacher_id=self.teachers[0].id, day_of_week=4, teacher=self.teachers[0]),
 
             Availability(teacher_id=self.teachers[5].id, day_of_week=1, teacher=self.teachers[5]),
-            Availability(teacher_id=self.teachers[5].id, day_of_week=2, teacher=self.teachers[5]),
-            Availability(teacher_id=self.teachers[5].id, day_of_week=4, teacher=self.teachers[5]),
+            Availability(teacher_id=self.teachers[5].id, day_of_week=3, teacher=self.teachers[5]),
 
             Availability(teacher_id=self.teachers[9].id, day_of_week=0, teacher=self.teachers[9]),
-            Availability(teacher_id=self.teachers[9].id, day_of_week=3, teacher=self.teachers[9]),
-            Availability(teacher_id=self.teachers[9].id, day_of_week=4, teacher=self.teachers[9]),
+            Availability(teacher_id=self.teachers[9].id, day_of_week=1, teacher=self.teachers[9]),
+            Availability(teacher_id=self.teachers[9].id, day_of_week=2, teacher=self.teachers[9]),
 
             Availability(teacher_id=self.teachers[12].id, day_of_week=1, teacher=self.teachers[12]),
-            Availability(teacher_id=self.teachers[12].id, day_of_week=2, teacher=self.teachers[12]),
             Availability(teacher_id=self.teachers[12].id, day_of_week=3, teacher=self.teachers[12]),
 
-            Availability(teacher_id=self.teachers[13].id, day_of_week=1, teacher=self.teachers[13]),
             Availability(teacher_id=self.teachers[13].id, day_of_week=2, teacher=self.teachers[13]),
-            Availability(teacher_id=self.teachers[13].id, day_of_week=3, teacher=self.teachers[13]),
             Availability(teacher_id=self.teachers[13].id, day_of_week=4, teacher=self.teachers[13]),
 
             Availability(teacher_id=self.teachers[7].id, day_of_week=0, teacher=self.teachers[7]),
-            Availability(teacher_id=self.teachers[7].id, day_of_week=3, teacher=self.teachers[7]),
-            Availability(teacher_id=self.teachers[7].id, day_of_week=4, teacher=self.teachers[7]),
+            Availability(teacher_id=self.teachers[7].id, day_of_week=2, teacher=self.teachers[7]),
 
+            Availability(teacher_id=self.teachers[14].id, day_of_week=0, teacher=self.teachers[14]),
             Availability(teacher_id=self.teachers[14].id, day_of_week=1, teacher=self.teachers[14]),
-            Availability(teacher_id=self.teachers[14].id, day_of_week=3, teacher=self.teachers[14]),
-            Availability(teacher_id=self.teachers[14].id, day_of_week=4, teacher=self.teachers[14]),
 
-            Availability(teacher_id=self.teachers[19].id, day_of_week=1, teacher=self.teachers[19]),
+            Availability(teacher_id=self.teachers[19].id, day_of_week=0, teacher=self.teachers[19]),
             Availability(teacher_id=self.teachers[19].id, day_of_week=2, teacher=self.teachers[19]),
-            Availability(teacher_id=self.teachers[19].id, day_of_week=3, teacher=self.teachers[19]),
 
             Availability(teacher_id=self.teachers[21].id, day_of_week=0, teacher=self.teachers[21]),
-            Availability(teacher_id=self.teachers[21].id, day_of_week=1, teacher=self.teachers[21]),
             Availability(teacher_id=self.teachers[21].id, day_of_week=3, teacher=self.teachers[21]),
 
             Availability(teacher_id=self.teachers[17].id, day_of_week=0, teacher=self.teachers[17]),
-            Availability(teacher_id=self.teachers[17].id, day_of_week=1, teacher=self.teachers[17]),
-            Availability(teacher_id=self.teachers[17].id, day_of_week=4, teacher=self.teachers[17]),
+            Availability(teacher_id=self.teachers[17].id, day_of_week=2, teacher=self.teachers[17]),
 
             Availability(teacher_id=self.teachers[15].id, day_of_week=0, teacher=self.teachers[15]),
-            Availability(teacher_id=self.teachers[15].id, day_of_week=3, teacher=self.teachers[15]),
-            Availability(teacher_id=self.teachers[15].id, day_of_week=4, teacher=self.teachers[15]),
+            Availability(teacher_id=self.teachers[15].id, day_of_week=1, teacher=self.teachers[15]),
 
-            Availability(teacher_id=self.teachers[18].id, day_of_week=0, teacher=self.teachers[18]),
             Availability(teacher_id=self.teachers[18].id, day_of_week=1, teacher=self.teachers[18]),
-            Availability(teacher_id=self.teachers[18].id, day_of_week=3, teacher=self.teachers[18]),
+            Availability(teacher_id=self.teachers[18].id, day_of_week=2, teacher=self.teachers[18]),
         ]
 
         # dic = {}

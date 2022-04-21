@@ -36,6 +36,7 @@ actual_population = Population()
 start = time.time()
 
 generation_number = 0
+count_best_individual = 0
 
 average_fitness = []
 low_fitness_individuals = []
@@ -86,9 +87,6 @@ while generation_number < GENERATIONS_NUMBER:
     generation_number += 1
     end_generation = time.time()
 
-    if generation_number == GENERATIONS_NUMBER:
-        save_best_individuals(actual_population)
-
     print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - Tempo: %f - Melhor indivíduo: %f - Média: %f" %
           (generation_number, end_generation - start_generation, best_individual.fitness, average))
 
@@ -96,7 +94,10 @@ while generation_number < GENERATIONS_NUMBER:
 
     # Parando execução após encontrar indivíduo com fitness 2
     if best_individual.fitness == 2:
-        break
+        count_best_individual += 1
+        if count_best_individual == 10 or generation_number == GENERATIONS_NUMBER:
+            save_best_individuals(actual_population)
+            break
 
 end = time.time()
 
