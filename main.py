@@ -95,7 +95,7 @@ while generation_number < GENERATIONS_NUMBER:
     # Parando execução após encontrar indivíduo com fitness 2
     if best_individual.fitness == 2:
         count_best_individual += 1
-        if count_best_individual == 10 or generation_number == GENERATIONS_NUMBER:
+        if count_best_individual == 30 or generation_number == GENERATIONS_NUMBER:
             save_best_individuals(actual_population)
             break
 
