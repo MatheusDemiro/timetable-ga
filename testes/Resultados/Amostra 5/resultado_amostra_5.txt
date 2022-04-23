@@ -1,0 +1,190 @@
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 1 - Tempo: 4.935819 - Melhor indivíduo: 0.111111 - Média: 0.035063
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 2 - Tempo: 9.512823 - Melhor indivíduo: 0.125000 - Média: 0.051556
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 3 - Tempo: 10.872695 - Melhor indivíduo: 0.125000 - Média: 0.060402
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 4 - Tempo: 11.925505 - Melhor indivíduo: 0.166667 - Média: 0.066404
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 5 - Tempo: 12.941680 - Melhor indivíduo: 0.200000 - Média: 0.073173
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 6 - Tempo: 14.439339 - Melhor indivíduo: 0.200000 - Média: 0.076407
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 7 - Tempo: 14.821230 - Melhor indivíduo: 0.200000 - Média: 0.080479
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 8 - Tempo: 15.068889 - Melhor indivíduo: 0.200000 - Média: 0.086028
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 9 - Tempo: 15.263972 - Melhor indivíduo: 0.200000 - Média: 0.080729
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 10 - Tempo: 15.433790 - Melhor indivíduo: 0.200000 - Média: 0.085079
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 11 - Tempo: 15.542444 - Melhor indivíduo: 0.200000 - Média: 0.082616
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 12 - Tempo: 15.555612 - Melhor indivíduo: 0.200000 - Média: 0.085456
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 13 - Tempo: 15.580972 - Melhor indivíduo: 0.200000 - Média: 0.083748
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 14 - Tempo: 15.622691 - Melhor indivíduo: 0.200000 - Média: 0.084345
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 15 - Tempo: 15.759508 - Melhor indivíduo: 0.200000 - Média: 0.081047
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 16 - Tempo: 15.751198 - Melhor indivíduo: 0.200000 - Média: 0.083239
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 17 - Tempo: 15.782271 - Melhor indivíduo: 0.200000 - Média: 0.086976
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 18 - Tempo: 15.781686 - Melhor indivíduo: 0.200000 - Média: 0.083611
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 19 - Tempo: 15.830924 - Melhor indivíduo: 0.200000 - Média: 0.084846
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 20 - Tempo: 15.926240 - Melhor indivíduo: 0.333333 - Média: 0.099523
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 21 - Tempo: 15.877486 - Melhor indivíduo: 0.333333 - Média: 0.095475
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 22 - Tempo: 15.950507 - Melhor indivíduo: 0.333333 - Média: 0.091853
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 23 - Tempo: 16.161880 - Melhor indivíduo: 0.333333 - Média: 0.091286
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 24 - Tempo: 15.946498 - Melhor indivíduo: 0.333333 - Média: 0.090942
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 25 - Tempo: 15.324837 - Melhor indivíduo: 0.333333 - Média: 0.095601
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 26 - Tempo: 14.925303 - Melhor indivíduo: 0.333333 - Média: 0.091740
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 27 - Tempo: 14.881573 - Melhor indivíduo: 0.333333 - Média: 0.090703
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 28 - Tempo: 17.418678 - Melhor indivíduo: 0.333333 - Média: 0.096657
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 29 - Tempo: 16.664726 - Melhor indivíduo: 0.333333 - Média: 0.095311
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 30 - Tempo: 15.742306 - Melhor indivíduo: 0.333333 - Média: 0.099635
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 31 - Tempo: 15.958335 - Melhor indivíduo: 0.333333 - Média: 0.100780
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 32 - Tempo: 15.521484 - Melhor indivíduo: 0.333333 - Média: 0.100519
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 33 - Tempo: 15.542963 - Melhor indivíduo: 0.333333 - Média: 0.103123
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 34 - Tempo: 15.849719 - Melhor indivíduo: 0.333333 - Média: 0.100999
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 35 - Tempo: 16.919859 - Melhor indivíduo: 0.333333 - Média: 0.093513
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 36 - Tempo: 16.409046 - Melhor indivíduo: 0.333333 - Média: 0.094678
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 37 - Tempo: 16.615275 - Melhor indivíduo: 0.333333 - Média: 0.096330
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 38 - Tempo: 16.382577 - Melhor indivíduo: 0.333333 - Média: 0.087927
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 39 - Tempo: 16.244271 - Melhor indivíduo: 0.333333 - Média: 0.095704
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 40 - Tempo: 16.993703 - Melhor indivíduo: 0.333333 - Média: 0.098276
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 41 - Tempo: 15.743275 - Melhor indivíduo: 0.333333 - Média: 0.095513
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 42 - Tempo: 16.764684 - Melhor indivíduo: 0.333333 - Média: 0.100048
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 43 - Tempo: 15.206583 - Melhor indivíduo: 0.333333 - Média: 0.096339
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 44 - Tempo: 16.461710 - Melhor indivíduo: 0.333333 - Média: 0.093362
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 45 - Tempo: 16.384979 - Melhor indivíduo: 0.333333 - Média: 0.096098
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 46 - Tempo: 16.356698 - Melhor indivíduo: 0.333333 - Média: 0.093102
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 47 - Tempo: 16.368890 - Melhor indivíduo: 0.333333 - Média: 0.095933
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 48 - Tempo: 16.374524 - Melhor indivíduo: 2.000000 - Média: 0.139181
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 49 - Tempo: 16.313534 - Melhor indivíduo: 2.000000 - Média: 0.137303
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 50 - Tempo: 15.154044 - Melhor indivíduo: 2.000000 - Média: 0.136329
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 51 - Tempo: 15.202108 - Melhor indivíduo: 2.000000 - Média: 0.141522
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 52 - Tempo: 15.335281 - Melhor indivíduo: 2.000000 - Média: 0.139110
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 53 - Tempo: 15.667930 - Melhor indivíduo: 2.000000 - Média: 0.143036
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 54 - Tempo: 15.430272 - Melhor indivíduo: 2.000000 - Média: 0.142241
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 55 - Tempo: 15.258119 - Melhor indivíduo: 2.000000 - Média: 0.141449
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 56 - Tempo: 15.301752 - Melhor indivíduo: 2.000000 - Média: 0.144569
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 57 - Tempo: 15.277632 - Melhor indivíduo: 2.000000 - Média: 0.142240
+TEMPO DE EXECUÇÃO 943.403327
+
+
+MÉDIA (VARIAÇÃO): 0.035063 - 0.144569
+PIOR INDIVÍDUO (VARIAÇÃO): 0.005917 - 0.035714
+
+
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+| TGA  | ALG | ALG  |  II  | TGA  |
+| LOG  |  II | None | FMAT | None |
+| FMAT | LOG | None | ALG  | None |
++------+-----+------+------+------+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| PROG | TGS  | MTC | LPT  | LPT  |
+| None | CAL  | TGS | PROG | PROG |
+| None | None | CAL | None | MTC  |
++------+------+-----+------+------+
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  AL |  ED  | OSM  |  AL  | OSM  |
+| FSI | FSI  | POOI | POOI | None |
+|  ED | None |  ED  | None | None |
++-----+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  PE  | ARQ  |  BD  | POO2 | ING  |
+| ARQ  | POO2 |  PE  | ING  | ES1  |
+| None | ES1  | None |  BD  | None |
++------+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| ES2  | PABD | PWEB | PABD |  SO |
+| None |  SO  | None | EMP  | EMP |
+| None | None | None | PWEB | ES2 |
++------+------+------+------+-----+
++------+------+------+-----+-----+
+| seg  | ter  | qua  | qui | sex |
++------+------+------+-----+-----+
+| RED  | SEG  | FIL  | FIL | CEC |
+| SEG  | GPS  | GPS  | TSI | TSI |
+| None | None | None | CEC | RED |
++------+------+------+-----+-----+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  PV  | None | MATF | MATF | DIR  |
+| DIR  | None |  PV  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| AEX  | None | AEX  | SAD  | SAD  |
+| ETIC | None | None | ETIC | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+
+APTIDÃO DO MELHOR INDIVÍDUO: 2.0000
+
+COMPONENTES FITNESS:
+	 ap: 0
+	 vp: 0
+	 up: 0
+	 lp: 0
+	 pf: 0
+	 ch: 0
+	 Total: 0
+Melhor indivíduo da geração 1: 0.1111
+Melhor indivíduo da geração 2: 0.1250
+Melhor indivíduo da geração 3: 0.1250
+Melhor indivíduo da geração 4: 0.1667
+Melhor indivíduo da geração 5: 0.2000
+Melhor indivíduo da geração 6: 0.2000
+Melhor indivíduo da geração 7: 0.2000
+Melhor indivíduo da geração 8: 0.2000
+Melhor indivíduo da geração 9: 0.2000
+Melhor indivíduo da geração 10: 0.2000
+Melhor indivíduo da geração 11: 0.2000
+Melhor indivíduo da geração 12: 0.2000
+Melhor indivíduo da geração 13: 0.2000
+Melhor indivíduo da geração 14: 0.2000
+Melhor indivíduo da geração 15: 0.2000
+Melhor indivíduo da geração 16: 0.2000
+Melhor indivíduo da geração 17: 0.2000
+Melhor indivíduo da geração 18: 0.2000
+Melhor indivíduo da geração 19: 0.2000
+Melhor indivíduo da geração 20: 0.3333
+Melhor indivíduo da geração 21: 0.3333
+Melhor indivíduo da geração 22: 0.3333
+Melhor indivíduo da geração 23: 0.3333
+Melhor indivíduo da geração 24: 0.3333
+Melhor indivíduo da geração 25: 0.3333
+Melhor indivíduo da geração 26: 0.3333
+Melhor indivíduo da geração 27: 0.3333
+Melhor indivíduo da geração 28: 0.3333
+Melhor indivíduo da geração 29: 0.3333
+Melhor indivíduo da geração 30: 0.3333
+Melhor indivíduo da geração 31: 0.3333
+Melhor indivíduo da geração 32: 0.3333
+Melhor indivíduo da geração 33: 0.3333
+Melhor indivíduo da geração 34: 0.3333
+Melhor indivíduo da geração 35: 0.3333
+Melhor indivíduo da geração 36: 0.3333
+Melhor indivíduo da geração 37: 0.3333
+Melhor indivíduo da geração 38: 0.3333
+Melhor indivíduo da geração 39: 0.3333
+Melhor indivíduo da geração 40: 0.3333
+Melhor indivíduo da geração 41: 0.3333
+Melhor indivíduo da geração 42: 0.3333
+Melhor indivíduo da geração 43: 0.3333
+Melhor indivíduo da geração 44: 0.3333
+Melhor indivíduo da geração 45: 0.3333
+Melhor indivíduo da geração 46: 0.3333
+Melhor indivíduo da geração 47: 0.3333
+Melhor indivíduo da geração 48: 2.0000
+Melhor indivíduo da geração 49: 2.0000
+Melhor indivíduo da geração 50: 2.0000
+Melhor indivíduo da geração 51: 2.0000
+Melhor indivíduo da geração 52: 2.0000
+Melhor indivíduo da geração 53: 2.0000
+Melhor indivíduo da geração 54: 2.0000
+Melhor indivíduo da geração 55: 2.0000
+Melhor indivíduo da geração 56: 2.0000
+Melhor indivíduo da geração 57: 2.0000
+
+Process finished with exit code 0

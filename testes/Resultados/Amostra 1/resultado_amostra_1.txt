@@ -1,0 +1,87 @@
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 1 - Tempo: 5.832000 - Melhor indivíduo: 0.250000 - Média: 0.076898
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 2 - Tempo: 11.519000 - Melhor indivíduo: 0.500000 - Média: 0.143342
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 3 - Tempo: 13.554000 - Melhor indivíduo: 1.000000 - Média: 0.196227
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 4 - Tempo: 15.010001 - Melhor indivíduo: 1.000000 - Média: 0.218206
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 5 - Tempo: 15.500000 - Melhor indivíduo: 1.000000 - Média: 0.239259
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 6 - Tempo: 16.112203 - Melhor indivíduo: 1.000000 - Média: 0.256358
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 7 - Tempo: 16.307650 - Melhor indivíduo: 1.000000 - Média: 0.294525
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 8 - Tempo: 16.546838 - Melhor indivíduo: 1.000000 - Média: 0.288650
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 9 - Tempo: 16.914684 - Melhor indivíduo: 1.000000 - Média: 0.312182
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 10 - Tempo: 16.283364 - Melhor indivíduo: 2.000000 - Média: 0.387911
+TEMPO DE EXECUÇÃO 143.579741
+
+
+MÉDIA (VARIAÇÃO): 0.076898 - 0.387911
+PIOR INDIVÍDUO (VARIAÇÃO): 0.006849 - 0.062500
+
+
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+| ALG | ALG  | FMAT | ALG  | TGA  |
+|  II | TGA  | None | LOG  |  II  |
+| LOG | None | None | FMAT | None |
++-----+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| MTC  | CAL  | PROG | LPT  | CAL  |
+| TGS  | None | MTC  | PROG | LPT  |
+| None | None | None | TGS  | PROG |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  AL  | FSI  |  ED  | POOI |  ED  |
+|  ED  | POOI | None | OSM  | FSI  |
+| None | OSM  | None |  AL  | None |
++------+------+------+------+------+
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+| ING | ING  | POO2 | ARQ  | ARQ  |
+|  BD |  BD  |  PE  |  PE  | ES1  |
+| ES1 | POO2 | None | None | None |
++-----+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  SO  |  SO  | EMP  | EMP  | ES2  |
+| PWEB | None | PABD | PABD | None |
+| ES2  | None | PWEB | None | None |
++------+------+------+------+------+
++-----+------+-----+------+------+
+| seg | ter  | qua | qui  | sex  |
++-----+------+-----+------+------+
+| FIL | CEC  | CEC | FIL  | GPS  |
+| SEG | SEG  | GPS | TSI  | RED  |
+| RED | None | TSI | None | None |
++-----+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | MATF | DIR  |  PV  | None |
+| MATF | None | None | None | None |
+|  PV  | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | AEX  | None |
+| SAD  | None | SAD  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+
+APTIDÃO DO MELHOR INDIVÍDUO: 2.0000
+Melhor indivíduo da geração 1: 0.2500
+Melhor indivíduo da geração 2: 0.5000
+Melhor indivíduo da geração 3: 1.0000
+Melhor indivíduo da geração 4: 1.0000
+Melhor indivíduo da geração 5: 1.0000
+Melhor indivíduo da geração 6: 1.0000
+Melhor indivíduo da geração 7: 1.0000
+Melhor indivíduo da geração 8: 1.0000
+Melhor indivíduo da geração 9: 1.0000
+Melhor indivíduo da geração 10: 2.0000
+
+Process finished with exit code 0
