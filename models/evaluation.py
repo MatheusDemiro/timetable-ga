@@ -100,11 +100,17 @@ class Evaluation:
                 lesson_x, lesson_y = lessons_of_day[index_x], lessons_of_day[index_y]
                 if lessons_of_day[index_x] is not None and lessons_of_day[index_y] is not None:
                     if lesson_x.id == lesson_y.id:
-                        # Selecionar turmas do período que não sejam ministradas pelo professor
+                        # Selecionando turmas do período que não sejam ministradas pelo professor
                         lessons = self.get_non_teacher_lessons(lesson_x.teacher, period, day)
 
+                        # Priorizando os primeiros horários vagos do dia
+                        empty_lessons_first_time = list(filter(lambda x: None in x and x[1] == 0, lessons))
+
                         # Selecionando aleatoriamente um elemento da "lessons"
-                        position = lessons[random.randrange(len(lessons))]
+                        if empty_lessons_first_time.__len__() > 0:
+                            position = empty_lessons_first_time[random.randrange(len(empty_lessons_first_time))]
+                        else:
+                            position = lessons[random.randrange(len(lessons))]
                         lesson = self.individual[period][position[0]][position[1]]
 
                         # Trocando turmas de dia (lesson_x e lesson)
@@ -122,7 +128,8 @@ class Evaluation:
                     if lesson_x.teacher.id == lesson_y.teacher.id:
                         if random_index == 0:
                             # Definindo listas de prioridades considerando period_x
-                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_x)
+                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_x,
+                                                                                                               lesson_x)
 
                             # Aplicando prioridades
                             self.apply_priorities(period_x, empty_lessons_first_time, empty_lessons_second_time,
@@ -130,7 +137,8 @@ class Evaluation:
                                                   (column, row))
                         else:
                             # Definindo listas de prioridades considerando period_y
-                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_y)
+                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_y,
+                                                                                                               lesson_y)
 
                             # Aplicando prioridades
                             self.apply_priorities(period_y, empty_lessons_first_time, empty_lessons_second_time,
@@ -190,22 +198,27 @@ class Evaluation:
         period[random_lesson[0]][random_lesson[1]] = aux
 
     @staticmethod
-    def get_priorities(period):
+    def get_priorities(period, lesson):
         empty_lessons_first_time = []
         empty_lessons_second_time = []
         lessons = []
+        availabilities = list(map(lambda x: x.day_of_week, lesson.teacher.availabilities))
 
         for column in range(WEEK_SIZE):
-            if period[column][0] is None:
-                empty_lessons_first_time.append((column, 0))
-            if period[column][1] is None:
-                empty_lessons_second_time.append((column, 1))
-            for row in range(LESSONS_PER_DAY):
-                if row <= 1:
-                    if period[column][row] is not None:
-                        lessons.append((column, row))
-                else:
-                    lessons.append((column, row))
+            # Analisando se o dia a ser analisado pertence a lista de disponibilidade do professor
+            if column in availabilities:
+                if period[column][0] is None:
+                    empty_lessons_first_time.append((column, 0))
+                if period[column][1] is None:
+                    empty_lessons_second_time.append((column, 1))
+                for row in range(LESSONS_PER_DAY):
+                    # Verificando se a disciplina restante não é igual a que deve ser trocada
+                    if period[column][row] != lesson:
+                        if row <= 1:
+                            if period[column][row] is not None:
+                                lessons.append((column, row))
+                        else:
+                            lessons.append((column, row))
 
         return empty_lessons_first_time, empty_lessons_second_time, lessons
 

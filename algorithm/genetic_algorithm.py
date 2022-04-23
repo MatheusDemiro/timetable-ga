@@ -69,19 +69,25 @@ class GeneticAlgorithm:
         # Juntar população antiga com nova população (self.population + new_population)
         self.population.individuals.extend(new_population.individuals)
 
+        # Selecionando os melhores indivíduos da nova população e da população antiga
+        best_individuals = self.get_best_individuals()
+
         self.recalculate_fitness()
 
         resulting_population = Population(size=0)
-        # Selecionando 99 indivíduos (POPULATION_SIZE - 1) usando o algoritmo da roleta
-        for i in range(POPULATION_SIZE - 1):
-            random_individual = self.roulette_wheel_selection()
-            while random_individual in resulting_population.individuals:
+
+        # Adicionando os indivíduos mais aptos da população
+        resulting_population.individuals.extend(best_individuals)
+
+        if best_individuals.__len__() < POPULATION_SIZE:
+            # Selecionando indivíduos (POPULATION_SIZE - len(best_individuals)) usando o algoritmo da roleta
+            interval = POPULATION_SIZE - best_individuals.__len__()
+            for i in range(interval):
                 random_individual = self.roulette_wheel_selection()
+                while random_individual in resulting_population.individuals:
+                    random_individual = self.roulette_wheel_selection()
 
-            resulting_population.individuals.append(random_individual)
-
-        # Adicionando o indivíduo mais apto da população
-        resulting_population.individuals.append(self.get_best_individual())
+                resulting_population.individuals.append(random_individual)
 
         resulting_population.size = len(resulting_population.individuals)
 
@@ -105,8 +111,10 @@ class GeneticAlgorithm:
 
         return ordered_list
 
-    def get_best_individual(self):
-        return max(self.population.individuals, key=lambda individual: individual.fitness)
+    def get_best_individuals(self):
+        best_individual = max(self.population.individuals, key=lambda individual: individual.fitness)
+
+        return list(filter(lambda x: x.fitness == best_individual.fitness, self.population.individuals))
 
     def recalculate_fitness(self):
         self.population_fitness = sum([individual.fitness for individual in self.population.individuals])
