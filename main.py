@@ -95,15 +95,16 @@ while generation_number < GENERATIONS_NUMBER:
     # Parando execução após encontrar indivíduo com fitness 2
     if best_individual.fitness == 2:
         count_best_individual += 1
-        if count_best_individual == 10 or generation_number == GENERATIONS_NUMBER:
+        if count_best_individual == 40 or generation_number == GENERATIONS_NUMBER:
             save_best_individuals(actual_population)
             break
 
+    print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - Tempo: %f - Melhor indivíduo: %f - Média: %f" %
+          (generation_number, end_generation - start_generation, best_individual.fitness, average))
+
     if generation_number % 5 == 0:
-        print("TEMPO DE EXECUÇÃO PARA A GERAÇÃO %i - Tempo: %f - Melhor indivíduo: %f - Média: %f - ap: %s - vp: %s - "
-              "up: %s - lp: %s - pf: %s - ch: %s" %
-              (generation_number, end_generation - start_generation, best_individual.fitness, average,
-               best_individual.summation['ap'], best_individual.summation['vp'], best_individual.summation['up'],
+        print("ap: %s - vp: %s - up: %s - lp: %s - pf: %s - ch: %s" %
+              (best_individual.summation['ap'], best_individual.summation['vp'], best_individual.summation['up'],
                best_individual.summation['lp'], best_individual.summation['pf'], best_individual.summation['ch']))
 
         Utils.print_timetable(best_individual)
