@@ -1,0 +1,58 @@
+Individual 1
++------+-----+-----+------+------+
+| seg  | ter | qua | qui  | sex  |
++------+-----+-----+------+------+
+|  II  | LOG | ALG | FMAT | ALG  |
+| None | TGA | LOG | ALG  | FMAT |
+| None |  II | TGA | None | None |
++------+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | PROG | LPT  |
+| PROG | PROG | None | MTC  | CAL  |
+| TGS  | MTC  | None | None | None |
++------+------+------+------+------+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POOI | FSI  | OSM |  AL  | OSM  |
+| FSI  |  ED  |  AL | POOI |  ED  |
+| None | None |  ED | None | None |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  BD  | ARQ  | ES1  | ING  | ES1  |
+| ARQ  |  BD  |  PE  |  PE  | ING  |
+| POO2 | None | None | POO2 | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | ES2  | ES2  | PWEB | EMP  |
+| PWEB |  SO  |  SO  | PABD | PABD |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | TSI | FIL  | FIL  | SEG  |
+| SEG | CEC | GPS  | TSI  | RED  |
+| RED | GPS | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | AEX  | ETIC | AEX  |
+| None | None | SAD  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+
