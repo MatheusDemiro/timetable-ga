@@ -1,8 +1,8 @@
 from sqlalchemy.ext.declarative import declarative_base
 
 
-SQLALCHEMY_URI = "mysql://root:password@localhost:3306/timetable?charset=utf8"
-SAMPLE_NAME = "amostra_10"
+SQLALCHEMY_URI = "mysql://root:password@localhost:3306/timetable7?charset=utf8"
+SAMPLE_NAME = "amostra_7"
 POPULATION_SIZE = 100
 GENERATIONS_NUMBER = 2000
 TOTAL_PERIODS = 8
