@@ -1,0 +1,4102 @@
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 1 - Tempo: 5.276734 - Melhor indivíduo: 0.076923 - Média: 0.034366
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 2 - Tempo: 9.281860 - Melhor indivíduo: 0.142857 - Média: 0.052556
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 3 - Tempo: 10.848916 - Melhor indivíduo: 0.200000 - Média: 0.066587
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 4 - Tempo: 11.740448 - Melhor indivíduo: 0.200000 - Média: 0.073447
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 5 - Tempo: 12.523118 - Melhor indivíduo: 0.250000 - Média: 0.078256
+ap: 1 - vp: 0 - up: 0 - lp: 3 - pf: 0 - ch: 0
++------+-----+-----+------+------+
+| seg  | ter | qua | qui  | sex  |
++------+-----+-----+------+------+
+| None | TGA | TGA | FMAT | FMAT |
+| None |  II | LOG | ALG  |  II  |
+| None | ALG | LOG | None | ALG  |
++------+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| MTC  | PROG | CAL  | TGS  | PROG |
+| PROG | LPT  | TGS  | LPT  | MTC  |
+| CAL  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+| POOI |  AL |  ED  | POOI |  ED  |
+| None | FSI | OSM  | FSI  | OSM  |
+| None |  ED | None |  AL  | None |
++------+-----+------+------+------+
++------+------+------+-----+------+
+| seg  | ter  | qua  | qui | sex  |
++------+------+------+-----+------+
+| ARQ  | ARQ  | ES1  | ING | ING  |
+| POO2 | None | POO2 | ES1 |  PE  |
+|  BD  | None |  BD  |  PE | None |
++------+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  SO  | ES2  |  SO  | ES2  | EMP  |
+| EMP  | PABD | None | PABD | PWEB |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+------+-----+------+------+
+| seg | ter  | qua | qui  | sex  |
++-----+------+-----+------+------+
+| TSI | CEC  | GPS | FIL  | GPS  |
+| CEC | TSI  | RED | FIL  | RED  |
+| SEG | None | SEG | None | None |
++-----+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  PV  | None | MATF | None | DIR  |
+| DIR  | None | None | MATF |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | SAD  | SAD  | None |
+| None | AEX  | ETIC | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 6 - Tempo: 12.893449 - Melhor indivíduo: 0.250000 - Média: 0.081972
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 7 - Tempo: 14.256700 - Melhor indivíduo: 0.250000 - Média: 0.084046
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 8 - Tempo: 14.454976 - Melhor indivíduo: 0.250000 - Média: 0.084106
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 9 - Tempo: 14.845819 - Melhor indivíduo: 0.250000 - Média: 0.082080
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 10 - Tempo: 15.002113 - Melhor indivíduo: 0.250000 - Média: 0.090821
+ap: 1 - vp: 0 - up: 0 - lp: 3 - pf: 0 - ch: 0
++------+-----+-----+------+------+
+| seg  | ter | qua | qui  | sex  |
++------+-----+-----+------+------+
+| None | TGA | TGA | FMAT | FMAT |
+| None |  II | LOG | ALG  |  II  |
+| None | ALG | LOG | None | ALG  |
++------+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| MTC  | PROG | CAL  | TGS  | PROG |
+| PROG | LPT  | TGS  | LPT  | MTC  |
+| CAL  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+| POOI |  AL |  ED  | POOI |  ED  |
+| None | FSI | OSM  | FSI  | OSM  |
+| None |  ED | None |  AL  | None |
++------+-----+------+------+------+
++------+------+------+-----+------+
+| seg  | ter  | qua  | qui | sex  |
++------+------+------+-----+------+
+| ARQ  | ARQ  | ES1  | ING | ING  |
+| POO2 | None | POO2 | ES1 |  PE  |
+|  BD  | None |  BD  |  PE | None |
++------+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  SO  | ES2  |  SO  | ES2  | EMP  |
+| EMP  | PABD | None | PABD | PWEB |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+------+-----+------+------+
+| seg | ter  | qua | qui  | sex  |
++-----+------+-----+------+------+
+| TSI | CEC  | GPS | FIL  | GPS  |
+| CEC | TSI  | RED | FIL  | RED  |
+| SEG | None | SEG | None | None |
++-----+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  PV  | None | MATF | None | DIR  |
+| DIR  | None | None | MATF |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | SAD  | SAD  | None |
+| None | AEX  | ETIC | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 11 - Tempo: 15.138410 - Melhor indivíduo: 0.250000 - Média: 0.089114
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 12 - Tempo: 15.221310 - Melhor indivíduo: 0.333333 - Média: 0.094241
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 13 - Tempo: 15.497323 - Melhor indivíduo: 0.333333 - Média: 0.094520
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 14 - Tempo: 15.382514 - Melhor indivíduo: 0.333333 - Média: 0.099151
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 15 - Tempo: 15.434844 - Melhor indivíduo: 0.333333 - Média: 0.096548
+ap: 2 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | ALG | None | FMAT | LOG  |
+| ALG  |  II | ALG  | TGA  | FMAT |
+| None | LOG | TGA  | None | None |
++------+-----+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| PROG | TGS  | PROG | LPT  | CAL |
+| MTC  | None | CAL  | PROG | LPT |
+| TGS  | None | None | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+| FSI  | OSM |  ED  | FSI  | POOI |
+| None |  ED |  AL  | None |  ED  |
+| None |  AL | None | POOI | OSM  |
++------+-----+------+------+------+
++------+------+------+-----+------+
+| seg  | ter  | qua  | qui | sex  |
++------+------+------+-----+------+
+| POO2 | ARQ  | ES1  | ES1 |  BD  |
+| ARQ  |  BD  |  PE  |  PE | ING  |
+| None | None | POO2 | ING | None |
++------+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  SO  | PABD | None | ES2  | EMP  |
+| PWEB |  SO  | PABD | PWEB | ES2  |
+| None | EMP  | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| FIL | RED | RED  | TSI  | GPS  |
+| TSI | CEC | FIL  | CEC  | SEG  |
+| SEG | GPS | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | None | MATF |  PV  | MATF |
+|  PV  | None | None | None | DIR  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| None | SAD  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 16 - Tempo: 15.424475 - Melhor indivíduo: 0.333333 - Média: 0.096076
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 17 - Tempo: 15.399576 - Melhor indivíduo: 0.333333 - Média: 0.094772
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 18 - Tempo: 15.486316 - Melhor indivíduo: 0.333333 - Média: 0.097504
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 19 - Tempo: 15.704150 - Melhor indivíduo: 0.333333 - Média: 0.098312
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 20 - Tempo: 15.606074 - Melhor indivíduo: 0.333333 - Média: 0.101408
+ap: 2 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | ALG | None | FMAT | LOG  |
+| ALG  |  II | ALG  | TGA  | FMAT |
+| None | LOG | TGA  | None | None |
++------+-----+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| PROG | TGS  | PROG | LPT  | CAL |
+| MTC  | None | CAL  | PROG | LPT |
+| TGS  | None | None | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+| FSI  | OSM |  ED  | FSI  | POOI |
+| None |  ED |  AL  | None |  ED  |
+| None |  AL | None | POOI | OSM  |
++------+-----+------+------+------+
++------+------+------+-----+------+
+| seg  | ter  | qua  | qui | sex  |
++------+------+------+-----+------+
+| POO2 | ARQ  | ES1  | ES1 |  BD  |
+| ARQ  |  BD  |  PE  |  PE | ING  |
+| None | None | POO2 | ING | None |
++------+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  SO  | PABD | None | ES2  | EMP  |
+| PWEB |  SO  | PABD | PWEB | ES2  |
+| None | EMP  | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| FIL | RED | RED  | TSI  | GPS  |
+| TSI | CEC | FIL  | CEC  | SEG  |
+| SEG | GPS | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | None | MATF |  PV  | MATF |
+|  PV  | None | None | None | DIR  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| None | SAD  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 21 - Tempo: 15.674208 - Melhor indivíduo: 0.333333 - Média: 0.096340
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 22 - Tempo: 15.643370 - Melhor indivíduo: 0.333333 - Média: 0.100668
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 23 - Tempo: 15.579815 - Melhor indivíduo: 0.333333 - Média: 0.095435
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 24 - Tempo: 15.611739 - Melhor indivíduo: 0.333333 - Média: 0.101064
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 25 - Tempo: 15.634507 - Melhor indivíduo: 0.333333 - Média: 0.108876
+ap: 2 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | ALG | None | FMAT | LOG  |
+| ALG  |  II | ALG  | TGA  | FMAT |
+| None | LOG | TGA  | None | None |
++------+-----+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| PROG | TGS  | PROG | LPT  | CAL |
+| MTC  | None | CAL  | PROG | LPT |
+| TGS  | None | None | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+| FSI  | OSM |  ED  | FSI  | POOI |
+| None |  ED |  AL  | None |  ED  |
+| None |  AL | None | POOI | OSM  |
++------+-----+------+------+------+
++------+------+------+-----+------+
+| seg  | ter  | qua  | qui | sex  |
++------+------+------+-----+------+
+| POO2 | ARQ  | ES1  | ES1 |  BD  |
+| ARQ  |  BD  |  PE  |  PE | ING  |
+| None | None | POO2 | ING | None |
++------+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  SO  | PABD | None | ES2  | EMP  |
+| PWEB |  SO  | PABD | PWEB | ES2  |
+| None | EMP  | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| FIL | RED | RED  | TSI  | GPS  |
+| TSI | CEC | FIL  | CEC  | SEG  |
+| SEG | GPS | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | None | MATF |  PV  | MATF |
+|  PV  | None | None | None | DIR  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| None | SAD  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 26 - Tempo: 15.793109 - Melhor indivíduo: 0.333333 - Média: 0.106121
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 27 - Tempo: 15.616772 - Melhor indivíduo: 0.333333 - Média: 0.107437
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 28 - Tempo: 15.610550 - Melhor indivíduo: 0.333333 - Média: 0.102343
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 29 - Tempo: 15.657265 - Melhor indivíduo: 0.333333 - Média: 0.103506
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 30 - Tempo: 15.792610 - Melhor indivíduo: 0.333333 - Média: 0.105681
+ap: 2 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | ALG | None | FMAT | LOG  |
+| ALG  |  II | ALG  | TGA  | FMAT |
+| None | LOG | TGA  | None | None |
++------+-----+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| PROG | TGS  | PROG | LPT  | CAL |
+| MTC  | None | CAL  | PROG | LPT |
+| TGS  | None | None | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+| FSI  | OSM |  ED  | FSI  | POOI |
+| None |  ED |  AL  | None |  ED  |
+| None |  AL | None | POOI | OSM  |
++------+-----+------+------+------+
++------+------+------+-----+------+
+| seg  | ter  | qua  | qui | sex  |
++------+------+------+-----+------+
+| POO2 | ARQ  | ES1  | ES1 |  BD  |
+| ARQ  |  BD  |  PE  |  PE | ING  |
+| None | None | POO2 | ING | None |
++------+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  SO  | PABD | None | ES2  | EMP  |
+| PWEB |  SO  | PABD | PWEB | ES2  |
+| None | EMP  | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| FIL | RED | RED  | TSI  | GPS  |
+| TSI | CEC | FIL  | CEC  | SEG  |
+| SEG | GPS | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | None | MATF |  PV  | MATF |
+|  PV  | None | None | None | DIR  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| None | SAD  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 31 - Tempo: 15.644245 - Melhor indivíduo: 0.333333 - Média: 0.107475
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 32 - Tempo: 15.664356 - Melhor indivíduo: 0.333333 - Média: 0.103056
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 33 - Tempo: 15.651881 - Melhor indivíduo: 0.333333 - Média: 0.111263
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 34 - Tempo: 15.751309 - Melhor indivíduo: 0.333333 - Média: 0.106513
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 35 - Tempo: 15.628034 - Melhor indivíduo: 0.500000 - Média: 0.111871
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 36 - Tempo: 15.612117 - Melhor indivíduo: 0.500000 - Média: 0.111142
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 37 - Tempo: 15.643512 - Melhor indivíduo: 0.500000 - Média: 0.112519
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 38 - Tempo: 15.739512 - Melhor indivíduo: 0.500000 - Média: 0.120812
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 39 - Tempo: 15.655513 - Melhor indivíduo: 0.500000 - Média: 0.128125
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 40 - Tempo: 15.546762 - Melhor indivíduo: 0.500000 - Média: 0.130973
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 41 - Tempo: 15.674708 - Melhor indivíduo: 0.500000 - Média: 0.124986
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 42 - Tempo: 15.731771 - Melhor indivíduo: 0.500000 - Média: 0.124834
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 43 - Tempo: 15.602694 - Melhor indivíduo: 0.500000 - Média: 0.122106
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 44 - Tempo: 15.722003 - Melhor indivíduo: 0.500000 - Média: 0.120137
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 45 - Tempo: 15.763876 - Melhor indivíduo: 0.500000 - Média: 0.118313
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 46 - Tempo: 15.720979 - Melhor indivíduo: 0.500000 - Média: 0.114779
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 47 - Tempo: 15.688167 - Melhor indivíduo: 0.500000 - Média: 0.109112
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 48 - Tempo: 15.741505 - Melhor indivíduo: 0.500000 - Média: 0.115773
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 49 - Tempo: 15.720756 - Melhor indivíduo: 0.500000 - Média: 0.110431
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 50 - Tempo: 15.783438 - Melhor indivíduo: 0.500000 - Média: 0.110479
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 51 - Tempo: 15.705488 - Melhor indivíduo: 0.500000 - Média: 0.115752
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 52 - Tempo: 15.671852 - Melhor indivíduo: 0.500000 - Média: 0.118036
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 53 - Tempo: 15.700562 - Melhor indivíduo: 0.500000 - Média: 0.117809
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 54 - Tempo: 15.823268 - Melhor indivíduo: 0.500000 - Média: 0.111414
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 55 - Tempo: 15.706297 - Melhor indivíduo: 0.500000 - Média: 0.107894
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 56 - Tempo: 15.639107 - Melhor indivíduo: 0.500000 - Média: 0.108695
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 57 - Tempo: 15.710053 - Melhor indivíduo: 0.500000 - Média: 0.115791
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 58 - Tempo: 15.859000 - Melhor indivíduo: 0.500000 - Média: 0.114090
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 59 - Tempo: 15.688506 - Melhor indivíduo: 0.500000 - Média: 0.118819
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 60 - Tempo: 15.713682 - Melhor indivíduo: 0.500000 - Média: 0.110731
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 61 - Tempo: 15.727889 - Melhor indivíduo: 0.500000 - Média: 0.110156
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 62 - Tempo: 15.704153 - Melhor indivíduo: 0.500000 - Média: 0.113359
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 63 - Tempo: 15.683062 - Melhor indivíduo: 0.500000 - Média: 0.114969
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 64 - Tempo: 15.716814 - Melhor indivíduo: 0.500000 - Média: 0.117079
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 65 - Tempo: 15.765149 - Melhor indivíduo: 0.500000 - Média: 0.118090
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 66 - Tempo: 15.735491 - Melhor indivíduo: 0.500000 - Média: 0.111503
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 67 - Tempo: 15.739466 - Melhor indivíduo: 0.500000 - Média: 0.116825
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 68 - Tempo: 15.680930 - Melhor indivíduo: 0.500000 - Média: 0.117006
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 69 - Tempo: 15.790285 - Melhor indivíduo: 0.500000 - Média: 0.109556
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 70 - Tempo: 15.678587 - Melhor indivíduo: 0.500000 - Média: 0.102678
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 71 - Tempo: 15.750931 - Melhor indivíduo: 0.500000 - Média: 0.109225
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 72 - Tempo: 15.704909 - Melhor indivíduo: 0.500000 - Média: 0.115223
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 73 - Tempo: 15.923830 - Melhor indivíduo: 0.500000 - Média: 0.108142
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 74 - Tempo: 15.672018 - Melhor indivíduo: 0.500000 - Média: 0.110835
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 75 - Tempo: 15.718281 - Melhor indivíduo: 0.500000 - Média: 0.114527
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 76 - Tempo: 15.710717 - Melhor indivíduo: 0.500000 - Média: 0.113643
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 77 - Tempo: 15.829145 - Melhor indivíduo: 0.500000 - Média: 0.116511
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 78 - Tempo: 15.678910 - Melhor indivíduo: 0.500000 - Média: 0.112196
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 79 - Tempo: 15.749989 - Melhor indivíduo: 0.500000 - Média: 0.115222
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 80 - Tempo: 15.659251 - Melhor indivíduo: 0.500000 - Média: 0.110810
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 81 - Tempo: 15.783180 - Melhor indivíduo: 0.500000 - Média: 0.107399
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 82 - Tempo: 15.626012 - Melhor indivíduo: 0.500000 - Média: 0.103502
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 83 - Tempo: 15.686604 - Melhor indivíduo: 0.500000 - Média: 0.103268
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 84 - Tempo: 15.746356 - Melhor indivíduo: 0.500000 - Média: 0.106079
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 85 - Tempo: 15.736343 - Melhor indivíduo: 0.500000 - Média: 0.105006
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 86 - Tempo: 15.716596 - Melhor indivíduo: 0.500000 - Média: 0.109257
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 87 - Tempo: 15.715683 - Melhor indivíduo: 0.500000 - Média: 0.109443
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 88 - Tempo: 15.731385 - Melhor indivíduo: 0.500000 - Média: 0.112512
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 89 - Tempo: 15.704144 - Melhor indivíduo: 0.500000 - Média: 0.110124
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 90 - Tempo: 15.739553 - Melhor indivíduo: 0.500000 - Média: 0.111182
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 91 - Tempo: 15.876030 - Melhor indivíduo: 0.500000 - Média: 0.111308
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 92 - Tempo: 15.790612 - Melhor indivíduo: 0.500000 - Média: 0.115184
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 93 - Tempo: 15.681304 - Melhor indivíduo: 0.500000 - Média: 0.117592
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 94 - Tempo: 15.669257 - Melhor indivíduo: 0.500000 - Média: 0.122991
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 95 - Tempo: 15.721048 - Melhor indivíduo: 0.500000 - Média: 0.123023
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 96 - Tempo: 15.756562 - Melhor indivíduo: 0.500000 - Média: 0.119826
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 97 - Tempo: 15.623179 - Melhor indivíduo: 0.500000 - Média: 0.117030
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 98 - Tempo: 15.678885 - Melhor indivíduo: 0.500000 - Média: 0.120239
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 99 - Tempo: 15.735383 - Melhor indivíduo: 0.500000 - Média: 0.127606
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 100 - Tempo: 15.708071 - Melhor indivíduo: 0.500000 - Média: 0.126671
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 101 - Tempo: 15.694676 - Melhor indivíduo: 0.500000 - Média: 0.124958
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 102 - Tempo: 15.707932 - Melhor indivíduo: 0.500000 - Média: 0.122649
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 103 - Tempo: 15.712497 - Melhor indivíduo: 0.500000 - Média: 0.118428
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 104 - Tempo: 15.812476 - Melhor indivíduo: 0.500000 - Média: 0.115200
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 105 - Tempo: 15.678898 - Melhor indivíduo: 0.500000 - Média: 0.120304
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 106 - Tempo: 15.664828 - Melhor indivíduo: 0.500000 - Média: 0.126765
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 107 - Tempo: 15.687655 - Melhor indivíduo: 0.500000 - Média: 0.125079
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 108 - Tempo: 15.810417 - Melhor indivíduo: 0.500000 - Média: 0.124296
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 109 - Tempo: 15.711142 - Melhor indivíduo: 0.500000 - Média: 0.128407
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 110 - Tempo: 15.656121 - Melhor indivíduo: 0.500000 - Média: 0.130931
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 111 - Tempo: 15.629336 - Melhor indivíduo: 0.500000 - Média: 0.130313
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 112 - Tempo: 15.795019 - Melhor indivíduo: 0.500000 - Média: 0.129451
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 113 - Tempo: 15.721011 - Melhor indivíduo: 0.500000 - Média: 0.139034
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 114 - Tempo: 15.704494 - Melhor indivíduo: 0.500000 - Média: 0.134248
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 115 - Tempo: 15.705274 - Melhor indivíduo: 0.500000 - Média: 0.144030
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 116 - Tempo: 15.705068 - Melhor indivíduo: 0.500000 - Média: 0.148587
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 117 - Tempo: 15.659251 - Melhor indivíduo: 0.500000 - Média: 0.140098
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 118 - Tempo: 15.731529 - Melhor indivíduo: 0.500000 - Média: 0.143546
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 119 - Tempo: 15.774892 - Melhor indivíduo: 0.500000 - Média: 0.139729
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 120 - Tempo: 15.749808 - Melhor indivíduo: 0.500000 - Média: 0.140733
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 121 - Tempo: 15.756381 - Melhor indivíduo: 0.500000 - Média: 0.137861
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 122 - Tempo: 15.668316 - Melhor indivíduo: 0.500000 - Média: 0.135886
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 123 - Tempo: 15.793292 - Melhor indivíduo: 0.500000 - Média: 0.141700
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 124 - Tempo: 15.685625 - Melhor indivíduo: 0.500000 - Média: 0.133947
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 125 - Tempo: 15.661016 - Melhor indivíduo: 0.500000 - Média: 0.142329
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 126 - Tempo: 15.676231 - Melhor indivíduo: 0.500000 - Média: 0.139497
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 127 - Tempo: 15.736578 - Melhor indivíduo: 0.500000 - Média: 0.138408
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 128 - Tempo: 15.647346 - Melhor indivíduo: 0.500000 - Média: 0.141013
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 129 - Tempo: 15.717899 - Melhor indivíduo: 0.500000 - Média: 0.128555
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 130 - Tempo: 15.759812 - Melhor indivíduo: 0.500000 - Média: 0.128278
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 131 - Tempo: 15.816268 - Melhor indivíduo: 0.500000 - Média: 0.120416
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 132 - Tempo: 15.705070 - Melhor indivíduo: 0.500000 - Média: 0.122465
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 133 - Tempo: 15.731368 - Melhor indivíduo: 0.500000 - Média: 0.124775
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 134 - Tempo: 15.688328 - Melhor indivíduo: 0.500000 - Média: 0.129962
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 135 - Tempo: 15.688510 - Melhor indivíduo: 0.500000 - Média: 0.127289
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 136 - Tempo: 15.720480 - Melhor indivíduo: 0.500000 - Média: 0.123999
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 137 - Tempo: 15.718529 - Melhor indivíduo: 0.500000 - Média: 0.121702
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 138 - Tempo: 15.705115 - Melhor indivíduo: 0.500000 - Média: 0.117371
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 139 - Tempo: 15.824102 - Melhor indivíduo: 0.500000 - Média: 0.123462
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 140 - Tempo: 15.704141 - Melhor indivíduo: 0.500000 - Média: 0.123903
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 141 - Tempo: 15.673761 - Melhor indivíduo: 0.500000 - Média: 0.133517
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 142 - Tempo: 15.663336 - Melhor indivíduo: 0.500000 - Média: 0.131157
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 143 - Tempo: 15.755014 - Melhor indivíduo: 0.500000 - Média: 0.134926
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 144 - Tempo: 15.706507 - Melhor indivíduo: 0.500000 - Média: 0.132298
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 145 - Tempo: 15.712218 - Melhor indivíduo: 0.500000 - Média: 0.135983
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 146 - Tempo: 15.631807 - Melhor indivíduo: 0.500000 - Média: 0.139234
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 147 - Tempo: 15.724059 - Melhor indivíduo: 0.500000 - Média: 0.138356
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 148 - Tempo: 15.715507 - Melhor indivíduo: 0.500000 - Média: 0.135873
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 149 - Tempo: 15.658037 - Melhor indivíduo: 0.500000 - Média: 0.134336
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 150 - Tempo: 15.777110 - Melhor indivíduo: 0.500000 - Média: 0.130721
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 151 - Tempo: 15.719778 - Melhor indivíduo: 0.500000 - Média: 0.133811
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 152 - Tempo: 15.736781 - Melhor indivíduo: 0.500000 - Média: 0.132795
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 153 - Tempo: 15.627195 - Melhor indivíduo: 0.500000 - Média: 0.135407
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 154 - Tempo: 15.723806 - Melhor indivíduo: 0.500000 - Média: 0.132022
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 155 - Tempo: 15.909063 - Melhor indivíduo: 0.500000 - Média: 0.147062
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 156 - Tempo: 15.694043 - Melhor indivíduo: 0.500000 - Média: 0.148186
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 157 - Tempo: 15.711698 - Melhor indivíduo: 0.500000 - Média: 0.143739
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 158 - Tempo: 15.794604 - Melhor indivíduo: 0.500000 - Média: 0.147206
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 159 - Tempo: 15.669707 - Melhor indivíduo: 0.500000 - Média: 0.146896
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 160 - Tempo: 15.699869 - Melhor indivíduo: 0.500000 - Média: 0.139747
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 161 - Tempo: 15.717630 - Melhor indivíduo: 0.500000 - Média: 0.143103
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 162 - Tempo: 15.773939 - Melhor indivíduo: 0.500000 - Média: 0.131659
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 163 - Tempo: 15.839295 - Melhor indivíduo: 0.500000 - Média: 0.139089
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 164 - Tempo: 15.657794 - Melhor indivíduo: 0.500000 - Média: 0.139241
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 165 - Tempo: 15.688714 - Melhor indivíduo: 0.500000 - Média: 0.143670
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 166 - Tempo: 15.792015 - Melhor indivíduo: 0.500000 - Média: 0.143000
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 167 - Tempo: 15.729247 - Melhor indivíduo: 0.500000 - Média: 0.144872
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 168 - Tempo: 15.659059 - Melhor indivíduo: 0.500000 - Média: 0.147167
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 169 - Tempo: 15.651762 - Melhor indivíduo: 0.500000 - Média: 0.152784
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 170 - Tempo: 15.824064 - Melhor indivíduo: 0.500000 - Média: 0.148185
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 171 - Tempo: 15.604977 - Melhor indivíduo: 0.500000 - Média: 0.139842
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 172 - Tempo: 15.647227 - Melhor indivíduo: 0.500000 - Média: 0.146892
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 173 - Tempo: 15.678960 - Melhor indivíduo: 0.500000 - Média: 0.151907
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 174 - Tempo: 15.805783 - Melhor indivíduo: 0.500000 - Média: 0.152413
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 175 - Tempo: 15.683254 - Melhor indivíduo: 0.500000 - Média: 0.146749
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 176 - Tempo: 15.719770 - Melhor indivíduo: 0.500000 - Média: 0.142974
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 177 - Tempo: 15.662785 - Melhor indivíduo: 0.500000 - Média: 0.135693
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 178 - Tempo: 15.761269 - Melhor indivíduo: 0.500000 - Média: 0.137239
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 179 - Tempo: 15.711940 - Melhor indivíduo: 0.500000 - Média: 0.132758
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 180 - Tempo: 15.700445 - Melhor indivíduo: 0.500000 - Média: 0.134794
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 181 - Tempo: 15.704930 - Melhor indivíduo: 0.500000 - Média: 0.139466
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 182 - Tempo: 15.716774 - Melhor indivíduo: 0.500000 - Média: 0.139959
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 183 - Tempo: 15.689961 - Melhor indivíduo: 0.500000 - Média: 0.147553
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 184 - Tempo: 15.706719 - Melhor indivíduo: 0.500000 - Média: 0.146372
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 185 - Tempo: 15.756473 - Melhor indivíduo: 0.500000 - Média: 0.144829
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 186 - Tempo: 15.672769 - Melhor indivíduo: 0.500000 - Média: 0.147659
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 187 - Tempo: 15.658823 - Melhor indivíduo: 0.500000 - Média: 0.157150
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 188 - Tempo: 15.697106 - Melhor indivíduo: 0.500000 - Média: 0.151582
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 189 - Tempo: 15.777091 - Melhor indivíduo: 0.500000 - Média: 0.149188
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 190 - Tempo: 15.768035 - Melhor indivíduo: 0.500000 - Média: 0.144306
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 191 - Tempo: 15.653772 - Melhor indivíduo: 0.500000 - Média: 0.145288
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 192 - Tempo: 15.667931 - Melhor indivíduo: 0.500000 - Média: 0.146838
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 193 - Tempo: 15.735450 - Melhor indivíduo: 0.500000 - Média: 0.148486
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 194 - Tempo: 15.674484 - Melhor indivíduo: 0.500000 - Média: 0.138006
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 195 - Tempo: 15.672892 - Melhor indivíduo: 0.500000 - Média: 0.148191
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 196 - Tempo: 15.704609 - Melhor indivíduo: 0.500000 - Média: 0.151097
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 197 - Tempo: 15.776995 - Melhor indivíduo: 0.500000 - Média: 0.152241
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 198 - Tempo: 15.660238 - Melhor indivíduo: 0.500000 - Média: 0.149860
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 199 - Tempo: 15.709527 - Melhor indivíduo: 0.500000 - Média: 0.144223
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 200 - Tempo: 15.709052 - Melhor indivíduo: 0.500000 - Média: 0.147914
+ap: 1 - vp: 1 - up: 0 - lp: 0 - pf: 0 - ch: 0
++-----+------+------+------+------+
+| seg | ter  | qua  | qui  | sex  |
++-----+------+------+------+------+
+|  II |  II  | ALG  | FMAT | LOG  |
+| TGA | LOG  | None | TGA  | ALG  |
+| ALG | None | FMAT | None | None |
++-----+------+------+------+------+
++------+------+------+------+-----+
+| seg  | ter  | qua  | qui  | sex |
++------+------+------+------+-----+
+| CAL  | PROG | CAL  | PROG | LPT |
+| None | TGS  | PROG | LPT  | TGS |
+| None | None | MTC  | None | MTC |
++------+------+------+------+-----+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| None | FSI |  ED  |  AL  | FSI |
+| POOI | OSM |  AL  | POOI |  ED |
+| None |  ED | None | None | OSM |
++------+-----+------+------+-----+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POO2 | ING  | ES1 | ES1  | POO2 |
+| ARQ  |  BD  |  PE | ING  | ARQ  |
+| None | None |  BD | None |  PE  |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| PABD | PABD | EMP  | EMP  | ES2  |
+| None |  SO  | PWEB | ES2  |  SO  |
+| None | None | None | PWEB | None |
++------+------+------+------+------+
++-----+-----+-----+------+------+
+| seg | ter | qua | qui  | sex  |
++-----+-----+-----+------+------+
+| FIL | RED | RED | TSI  | SEG  |
+| TSI | CEC | FIL | CEC  | None |
+| SEG | GPS | GPS | None | None |
++-----+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF | None | MATF |
+|  PV  | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | AEX  | ETIC | None | SAD  |
+| SAD  | None | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 201 - Tempo: 15.862147 - Melhor indivíduo: 0.500000 - Média: 0.145111
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 202 - Tempo: 15.673386 - Melhor indivíduo: 0.500000 - Média: 0.144549
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 203 - Tempo: 15.625881 - Melhor indivíduo: 0.500000 - Média: 0.142710
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 204 - Tempo: 15.699357 - Melhor indivíduo: 0.500000 - Média: 0.147474
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 205 - Tempo: 15.734933 - Melhor indivíduo: 1.000000 - Média: 0.152182
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 206 - Tempo: 15.707837 - Melhor indivíduo: 1.000000 - Média: 0.144469
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 207 - Tempo: 15.716532 - Melhor indivíduo: 1.000000 - Média: 0.158886
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 208 - Tempo: 15.824108 - Melhor indivíduo: 1.000000 - Média: 0.162095
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 209 - Tempo: 15.862083 - Melhor indivíduo: 1.000000 - Média: 0.163392
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 210 - Tempo: 15.625815 - Melhor indivíduo: 1.000000 - Média: 0.165346
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 211 - Tempo: 15.657218 - Melhor indivíduo: 1.000000 - Média: 0.168672
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 212 - Tempo: 15.707094 - Melhor indivíduo: 1.000000 - Média: 0.166784
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 213 - Tempo: 15.745259 - Melhor indivíduo: 1.000000 - Média: 0.166568
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 214 - Tempo: 15.720718 - Melhor indivíduo: 1.000000 - Média: 0.172790
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 215 - Tempo: 15.663700 - Melhor indivíduo: 1.000000 - Média: 0.175349
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 216 - Tempo: 15.719827 - Melhor indivíduo: 1.000000 - Média: 0.165657
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 217 - Tempo: 15.676828 - Melhor indivíduo: 1.000000 - Média: 0.163941
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 218 - Tempo: 15.735394 - Melhor indivíduo: 1.000000 - Média: 0.167169
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 219 - Tempo: 15.674733 - Melhor indivíduo: 1.000000 - Média: 0.163451
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 220 - Tempo: 15.809882 - Melhor indivíduo: 1.000000 - Média: 0.172463
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 221 - Tempo: 15.643602 - Melhor indivíduo: 1.000000 - Média: 0.171930
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 222 - Tempo: 15.662506 - Melhor indivíduo: 1.000000 - Média: 0.164896
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 223 - Tempo: 15.796162 - Melhor indivíduo: 1.000000 - Média: 0.168355
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 224 - Tempo: 15.784505 - Melhor indivíduo: 1.000000 - Média: 0.162333
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 225 - Tempo: 15.703372 - Melhor indivíduo: 1.000000 - Média: 0.168786
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 226 - Tempo: 15.705136 - Melhor indivíduo: 1.000000 - Média: 0.172358
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 227 - Tempo: 15.672108 - Melhor indivíduo: 1.000000 - Média: 0.161471
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 228 - Tempo: 15.826518 - Melhor indivíduo: 1.000000 - Média: 0.158905
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 229 - Tempo: 15.797171 - Melhor indivíduo: 1.000000 - Média: 0.152515
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 230 - Tempo: 15.684415 - Melhor indivíduo: 1.000000 - Média: 0.154445
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 231 - Tempo: 15.689219 - Melhor indivíduo: 1.000000 - Média: 0.164283
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 232 - Tempo: 15.731231 - Melhor indivíduo: 1.000000 - Média: 0.157301
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 233 - Tempo: 15.704385 - Melhor indivíduo: 1.000000 - Média: 0.156276
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 234 - Tempo: 15.656219 - Melhor indivíduo: 1.000000 - Média: 0.158337
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 235 - Tempo: 15.707959 - Melhor indivíduo: 1.000000 - Média: 0.159318
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 236 - Tempo: 15.797968 - Melhor indivíduo: 1.000000 - Média: 0.154530
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 237 - Tempo: 15.663503 - Melhor indivíduo: 1.000000 - Média: 0.160267
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 238 - Tempo: 15.714508 - Melhor indivíduo: 1.000000 - Média: 0.151459
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 239 - Tempo: 15.652445 - Melhor indivíduo: 1.000000 - Média: 0.157084
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 240 - Tempo: 15.794926 - Melhor indivíduo: 1.000000 - Média: 0.162834
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 241 - Tempo: 15.696867 - Melhor indivíduo: 1.000000 - Média: 0.163573
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 242 - Tempo: 15.696373 - Melhor indivíduo: 1.000000 - Média: 0.167325
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 243 - Tempo: 15.678524 - Melhor indivíduo: 1.000000 - Média: 0.161974
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 244 - Tempo: 15.763746 - Melhor indivíduo: 1.000000 - Média: 0.158737
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 245 - Tempo: 15.690964 - Melhor indivíduo: 1.000000 - Média: 0.167231
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 246 - Tempo: 15.688648 - Melhor indivíduo: 1.000000 - Média: 0.165452
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 247 - Tempo: 15.629226 - Melhor indivíduo: 1.000000 - Média: 0.171232
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 248 - Tempo: 15.704136 - Melhor indivíduo: 1.000000 - Média: 0.172241
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 249 - Tempo: 15.667070 - Melhor indivíduo: 1.000000 - Média: 0.175917
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 250 - Tempo: 15.783251 - Melhor indivíduo: 1.000000 - Média: 0.168049
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 251 - Tempo: 15.790319 - Melhor indivíduo: 1.000000 - Média: 0.171183
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 252 - Tempo: 15.727365 - Melhor indivíduo: 1.000000 - Média: 0.169278
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 253 - Tempo: 15.713023 - Melhor indivíduo: 1.000000 - Média: 0.170410
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 254 - Tempo: 15.741189 - Melhor indivíduo: 1.000000 - Média: 0.169961
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 255 - Tempo: 15.785087 - Melhor indivíduo: 1.000000 - Média: 0.168687
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 256 - Tempo: 15.683460 - Melhor indivíduo: 1.000000 - Média: 0.162331
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 257 - Tempo: 15.797737 - Melhor indivíduo: 1.000000 - Média: 0.165527
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 258 - Tempo: 15.751929 - Melhor indivíduo: 1.000000 - Média: 0.164420
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 259 - Tempo: 15.962689 - Melhor indivíduo: 1.000000 - Média: 0.162543
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 260 - Tempo: 15.724026 - Melhor indivíduo: 1.000000 - Média: 0.160021
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 261 - Tempo: 15.736537 - Melhor indivíduo: 1.000000 - Média: 0.151529
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 262 - Tempo: 15.731989 - Melhor indivíduo: 1.000000 - Média: 0.161572
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 263 - Tempo: 15.834956 - Melhor indivíduo: 1.000000 - Média: 0.154609
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 264 - Tempo: 15.734227 - Melhor indivíduo: 1.000000 - Média: 0.150995
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 265 - Tempo: 15.772869 - Melhor indivíduo: 1.000000 - Média: 0.156710
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 266 - Tempo: 15.788095 - Melhor indivíduo: 1.000000 - Média: 0.158069
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 267 - Tempo: 15.855996 - Melhor indivíduo: 1.000000 - Média: 0.162072
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 268 - Tempo: 15.790655 - Melhor indivíduo: 1.000000 - Média: 0.163831
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 269 - Tempo: 15.706975 - Melhor indivíduo: 1.000000 - Média: 0.171545
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 270 - Tempo: 15.779096 - Melhor indivíduo: 1.000000 - Média: 0.169271
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 271 - Tempo: 15.797782 - Melhor indivíduo: 1.000000 - Média: 0.169335
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 272 - Tempo: 15.841429 - Melhor indivíduo: 1.000000 - Média: 0.166454
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 273 - Tempo: 15.753635 - Melhor indivíduo: 1.000000 - Média: 0.160017
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 274 - Tempo: 15.766001 - Melhor indivíduo: 1.000000 - Média: 0.160604
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 275 - Tempo: 15.949495 - Melhor indivíduo: 1.000000 - Média: 0.165945
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 276 - Tempo: 15.753052 - Melhor indivíduo: 1.000000 - Média: 0.169879
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 277 - Tempo: 15.730304 - Melhor indivíduo: 1.000000 - Média: 0.172800
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 278 - Tempo: 15.781019 - Melhor indivíduo: 1.000000 - Média: 0.176223
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 279 - Tempo: 15.828884 - Melhor indivíduo: 1.000000 - Média: 0.174304
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 280 - Tempo: 15.714245 - Melhor indivíduo: 1.000000 - Média: 0.170229
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 281 - Tempo: 15.725497 - Melhor indivíduo: 1.000000 - Média: 0.174916
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 282 - Tempo: 15.808568 - Melhor indivíduo: 1.000000 - Média: 0.177028
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 283 - Tempo: 15.734560 - Melhor indivíduo: 1.000000 - Média: 0.182421
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 284 - Tempo: 15.699129 - Melhor indivíduo: 1.000000 - Média: 0.186527
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 285 - Tempo: 15.744469 - Melhor indivíduo: 1.000000 - Média: 0.192203
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 286 - Tempo: 15.880065 - Melhor indivíduo: 1.000000 - Média: 0.187998
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 287 - Tempo: 15.710339 - Melhor indivíduo: 1.000000 - Média: 0.184547
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 288 - Tempo: 15.882423 - Melhor indivíduo: 1.000000 - Média: 0.187358
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 289 - Tempo: 15.729068 - Melhor indivíduo: 1.000000 - Média: 0.187103
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 290 - Tempo: 15.821660 - Melhor indivíduo: 1.000000 - Média: 0.186820
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 291 - Tempo: 15.801920 - Melhor indivíduo: 1.000000 - Média: 0.185867
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 292 - Tempo: 15.735186 - Melhor indivíduo: 1.000000 - Média: 0.184743
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 293 - Tempo: 15.859754 - Melhor indivíduo: 1.000000 - Média: 0.185415
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 294 - Tempo: 15.899447 - Melhor indivíduo: 1.000000 - Média: 0.177988
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 295 - Tempo: 15.781648 - Melhor indivíduo: 1.000000 - Média: 0.180813
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 296 - Tempo: 15.712673 - Melhor indivíduo: 1.000000 - Média: 0.178095
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 297 - Tempo: 15.815604 - Melhor indivíduo: 1.000000 - Média: 0.177536
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 298 - Tempo: 15.780480 - Melhor indivíduo: 1.000000 - Média: 0.179305
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 299 - Tempo: 15.769653 - Melhor indivíduo: 1.000000 - Média: 0.176937
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 300 - Tempo: 15.759566 - Melhor indivíduo: 1.000000 - Média: 0.169564
+ap: 0 - vp: 0 - up: 0 - lp: 1 - pf: 0 - ch: 0
++------+-----+------+------+------+
+| seg  | ter | qua  | qui  | sex  |
++------+-----+------+------+------+
+|  II  | TGA | LOG  | FMAT | ALG  |
+| None | ALG | TGA  | ALG  | LOG  |
+| None |  II | None | None | FMAT |
++------+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | MTC  | CAL  |
+| PROG | MTC  | PROG | LPT  | PROG |
+| TGS  | None | None | None | None |
++------+------+------+------+------+
++------+-----+------+------+-----+
+| seg  | ter | qua  | qui  | sex |
++------+-----+------+------+-----+
+| POOI |  ED | OSM  |  AL  |  ED |
+| FSI  | OSM | None | POOI | FSI |
+| None |  AL | None | None |  ED |
++------+-----+------+------+-----+
++-----+------+------+-----+------+
+| seg | ter  | qua  | qui | sex  |
++-----+------+------+-----+------+
+|  BD | ARQ  |  BD  | ING | POO2 |
+| ARQ | None | POO2 |  PE |  PE  |
+| ES1 | None | None | ES1 | ING  |
++-----+------+------+-----+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | PABD |  SO  | PWEB | PABD |
+| PWEB | ES2  | ES2  | EMP  |  SO  |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | CEC | FIL  | TSI  | SEG  |
+| RED | RED | GPS  | FIL  | GPS  |
+| SEG | TSI | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | SAD  | ETIC | None |
+| None | AEX  | AEX  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 301 - Tempo: 15.774590 - Melhor indivíduo: 1.000000 - Média: 0.166686
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 302 - Tempo: 15.999755 - Melhor indivíduo: 1.000000 - Média: 0.158863
+TEMPO DE EXECUÇÃO PARA A GERAÇÃO 303 - Tempo: 15.741690 - Melhor indivíduo: 2.000000 - Média: 0.179235
+TEMPO DE EXECUÇÃO 5109.057050
+
+
+MÉDIA (VARIAÇÃO): 0.034366 - 0.192203
+PIOR INDIVÍDUO (VARIAÇÃO): 0.005587 - 0.038462
+
+
++------+-----+-----+------+------+
+| seg  | ter | qua | qui  | sex  |
++------+-----+-----+------+------+
+|  II  | LOG | ALG | FMAT | ALG  |
+| None | TGA | LOG | ALG  | FMAT |
+| None |  II | TGA | None | None |
++------+-----+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| CAL  | LPT  | TGS  | PROG | LPT  |
+| PROG | PROG | None | MTC  | CAL  |
+| TGS  | MTC  | None | None | None |
++------+------+------+------+------+
++------+------+-----+------+------+
+| seg  | ter  | qua | qui  | sex  |
++------+------+-----+------+------+
+| POOI | FSI  | OSM |  AL  | OSM  |
+| FSI  |  ED  |  AL | POOI |  ED  |
+| None | None |  ED | None | None |
++------+------+-----+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+|  BD  | ARQ  | ES1  | ING  | ES1  |
+| ARQ  |  BD  |  PE  |  PE  | ING  |
+| POO2 | None | None | POO2 | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| EMP  | ES2  | ES2  | PWEB | EMP  |
+| PWEB |  SO  |  SO  | PABD | PABD |
+| None | None | None | None | None |
++------+------+------+------+------+
++-----+-----+------+------+------+
+| seg | ter | qua  | qui  | sex  |
++-----+-----+------+------+------+
+| CEC | TSI | FIL  | FIL  | SEG  |
+| SEG | CEC | GPS  | TSI  | RED  |
+| RED | GPS | None | None | None |
++-----+-----+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| DIR  | DIR  | MATF |  PV  | MATF |
+| None | None | None | None |  PV  |
+| None | None | None | None | None |
++------+------+------+------+------+
++------+------+------+------+------+
+| seg  | ter  | qua  | qui  | sex  |
++------+------+------+------+------+
+| ETIC | SAD  | AEX  | ETIC | AEX  |
+| None | None | SAD  | None | None |
+| None | None | None | None | None |
++------+------+------+------+------+
+
+APTIDÃO DO MELHOR INDIVÍDUO: 2.0000
+
+COMPONENTES FITNESS:
+	 ap: 0
+	 vp: 0
+	 up: 0
+	 lp: 0
+	 pf: 0
+	 ch: 0
+	 Total: 0
+Melhor indivíduo da geração 1: 0.0769
+Melhor indivíduo da geração 2: 0.1429
+Melhor indivíduo da geração 3: 0.2000
+Melhor indivíduo da geração 4: 0.2000
+Melhor indivíduo da geração 5: 0.2500
+Melhor indivíduo da geração 6: 0.2500
+Melhor indivíduo da geração 7: 0.2500
+Melhor indivíduo da geração 8: 0.2500
+Melhor indivíduo da geração 9: 0.2500
+Melhor indivíduo da geração 10: 0.2500
+Melhor indivíduo da geração 11: 0.2500
+Melhor indivíduo da geração 12: 0.3333
+Melhor indivíduo da geração 13: 0.3333
+Melhor indivíduo da geração 14: 0.3333
+Melhor indivíduo da geração 15: 0.3333
+Melhor indivíduo da geração 16: 0.3333
+Melhor indivíduo da geração 17: 0.3333
+Melhor indivíduo da geração 18: 0.3333
+Melhor indivíduo da geração 19: 0.3333
+Melhor indivíduo da geração 20: 0.3333
+Melhor indivíduo da geração 21: 0.3333
+Melhor indivíduo da geração 22: 0.3333
+Melhor indivíduo da geração 23: 0.3333
+Melhor indivíduo da geração 24: 0.3333
+Melhor indivíduo da geração 25: 0.3333
+Melhor indivíduo da geração 26: 0.3333
+Melhor indivíduo da geração 27: 0.3333
+Melhor indivíduo da geração 28: 0.3333
+Melhor indivíduo da geração 29: 0.3333
+Melhor indivíduo da geração 30: 0.3333
+Melhor indivíduo da geração 31: 0.3333
+Melhor indivíduo da geração 32: 0.3333
+Melhor indivíduo da geração 33: 0.3333
+Melhor indivíduo da geração 34: 0.3333
+Melhor indivíduo da geração 35: 0.5000
+Melhor indivíduo da geração 36: 0.5000
+Melhor indivíduo da geração 37: 0.5000
+Melhor indivíduo da geração 38: 0.5000
+Melhor indivíduo da geração 39: 0.5000
+Melhor indivíduo da geração 40: 0.5000
+Melhor indivíduo da geração 41: 0.5000
+Melhor indivíduo da geração 42: 0.5000
+Melhor indivíduo da geração 43: 0.5000
+Melhor indivíduo da geração 44: 0.5000
+Melhor indivíduo da geração 45: 0.5000
+Melhor indivíduo da geração 46: 0.5000
+Melhor indivíduo da geração 47: 0.5000
+Melhor indivíduo da geração 48: 0.5000
+Melhor indivíduo da geração 49: 0.5000
+Melhor indivíduo da geração 50: 0.5000
+Melhor indivíduo da geração 51: 0.5000
+Melhor indivíduo da geração 52: 0.5000
+Melhor indivíduo da geração 53: 0.5000
+Melhor indivíduo da geração 54: 0.5000
+Melhor indivíduo da geração 55: 0.5000
+Melhor indivíduo da geração 56: 0.5000
+Melhor indivíduo da geração 57: 0.5000
+Melhor indivíduo da geração 58: 0.5000
+Melhor indivíduo da geração 59: 0.5000
+Melhor indivíduo da geração 60: 0.5000
+Melhor indivíduo da geração 61: 0.5000
+Melhor indivíduo da geração 62: 0.5000
+Melhor indivíduo da geração 63: 0.5000
+Melhor indivíduo da geração 64: 0.5000
+Melhor indivíduo da geração 65: 0.5000
+Melhor indivíduo da geração 66: 0.5000
+Melhor indivíduo da geração 67: 0.5000
+Melhor indivíduo da geração 68: 0.5000
+Melhor indivíduo da geração 69: 0.5000
+Melhor indivíduo da geração 70: 0.5000
+Melhor indivíduo da geração 71: 0.5000
+Melhor indivíduo da geração 72: 0.5000
+Melhor indivíduo da geração 73: 0.5000
+Melhor indivíduo da geração 74: 0.5000
+Melhor indivíduo da geração 75: 0.5000
+Melhor indivíduo da geração 76: 0.5000
+Melhor indivíduo da geração 77: 0.5000
+Melhor indivíduo da geração 78: 0.5000
+Melhor indivíduo da geração 79: 0.5000
+Melhor indivíduo da geração 80: 0.5000
+Melhor indivíduo da geração 81: 0.5000
+Melhor indivíduo da geração 82: 0.5000
+Melhor indivíduo da geração 83: 0.5000
+Melhor indivíduo da geração 84: 0.5000
+Melhor indivíduo da geração 85: 0.5000
+Melhor indivíduo da geração 86: 0.5000
+Melhor indivíduo da geração 87: 0.5000
+Melhor indivíduo da geração 88: 0.5000
+Melhor indivíduo da geração 89: 0.5000
+Melhor indivíduo da geração 90: 0.5000
+Melhor indivíduo da geração 91: 0.5000
+Melhor indivíduo da geração 92: 0.5000
+Melhor indivíduo da geração 93: 0.5000
+Melhor indivíduo da geração 94: 0.5000
+Melhor indivíduo da geração 95: 0.5000
+Melhor indivíduo da geração 96: 0.5000
+Melhor indivíduo da geração 97: 0.5000
+Melhor indivíduo da geração 98: 0.5000
+Melhor indivíduo da geração 99: 0.5000
+Melhor indivíduo da geração 100: 0.5000
+Melhor indivíduo da geração 101: 0.5000
+Melhor indivíduo da geração 102: 0.5000
+Melhor indivíduo da geração 103: 0.5000
+Melhor indivíduo da geração 104: 0.5000
+Melhor indivíduo da geração 105: 0.5000
+Melhor indivíduo da geração 106: 0.5000
+Melhor indivíduo da geração 107: 0.5000
+Melhor indivíduo da geração 108: 0.5000
+Melhor indivíduo da geração 109: 0.5000
+Melhor indivíduo da geração 110: 0.5000
+Melhor indivíduo da geração 111: 0.5000
+Melhor indivíduo da geração 112: 0.5000
+Melhor indivíduo da geração 113: 0.5000
+Melhor indivíduo da geração 114: 0.5000
+Melhor indivíduo da geração 115: 0.5000
+Melhor indivíduo da geração 116: 0.5000
+Melhor indivíduo da geração 117: 0.5000
+Melhor indivíduo da geração 118: 0.5000
+Melhor indivíduo da geração 119: 0.5000
+Melhor indivíduo da geração 120: 0.5000
+Melhor indivíduo da geração 121: 0.5000
+Melhor indivíduo da geração 122: 0.5000
+Melhor indivíduo da geração 123: 0.5000
+Melhor indivíduo da geração 124: 0.5000
+Melhor indivíduo da geração 125: 0.5000
+Melhor indivíduo da geração 126: 0.5000
+Melhor indivíduo da geração 127: 0.5000
+Melhor indivíduo da geração 128: 0.5000
+Melhor indivíduo da geração 129: 0.5000
+Melhor indivíduo da geração 130: 0.5000
+Melhor indivíduo da geração 131: 0.5000
+Melhor indivíduo da geração 132: 0.5000
+Melhor indivíduo da geração 133: 0.5000
+Melhor indivíduo da geração 134: 0.5000
+Melhor indivíduo da geração 135: 0.5000
+Melhor indivíduo da geração 136: 0.5000
+Melhor indivíduo da geração 137: 0.5000
+Melhor indivíduo da geração 138: 0.5000
+Melhor indivíduo da geração 139: 0.5000
+Melhor indivíduo da geração 140: 0.5000
+Melhor indivíduo da geração 141: 0.5000
+Melhor indivíduo da geração 142: 0.5000
+Melhor indivíduo da geração 143: 0.5000
+Melhor indivíduo da geração 144: 0.5000
+Melhor indivíduo da geração 145: 0.5000
+Melhor indivíduo da geração 146: 0.5000
+Melhor indivíduo da geração 147: 0.5000
+Melhor indivíduo da geração 148: 0.5000
+Melhor indivíduo da geração 149: 0.5000
+Melhor indivíduo da geração 150: 0.5000
+Melhor indivíduo da geração 151: 0.5000
+Melhor indivíduo da geração 152: 0.5000
+Melhor indivíduo da geração 153: 0.5000
+Melhor indivíduo da geração 154: 0.5000
+Melhor indivíduo da geração 155: 0.5000
+Melhor indivíduo da geração 156: 0.5000
+Melhor indivíduo da geração 157: 0.5000
+Melhor indivíduo da geração 158: 0.5000
+Melhor indivíduo da geração 159: 0.5000
+Melhor indivíduo da geração 160: 0.5000
+Melhor indivíduo da geração 161: 0.5000
+Melhor indivíduo da geração 162: 0.5000
+Melhor indivíduo da geração 163: 0.5000
+Melhor indivíduo da geração 164: 0.5000
+Melhor indivíduo da geração 165: 0.5000
+Melhor indivíduo da geração 166: 0.5000
+Melhor indivíduo da geração 167: 0.5000
+Melhor indivíduo da geração 168: 0.5000
+Melhor indivíduo da geração 169: 0.5000
+Melhor indivíduo da geração 170: 0.5000
+Melhor indivíduo da geração 171: 0.5000
+Melhor indivíduo da geração 172: 0.5000
+Melhor indivíduo da geração 173: 0.5000
+Melhor indivíduo da geração 174: 0.5000
+Melhor indivíduo da geração 175: 0.5000
+Melhor indivíduo da geração 176: 0.5000
+Melhor indivíduo da geração 177: 0.5000
+Melhor indivíduo da geração 178: 0.5000
+Melhor indivíduo da geração 179: 0.5000
+Melhor indivíduo da geração 180: 0.5000
+Melhor indivíduo da geração 181: 0.5000
+Melhor indivíduo da geração 182: 0.5000
+Melhor indivíduo da geração 183: 0.5000
+Melhor indivíduo da geração 184: 0.5000
+Melhor indivíduo da geração 185: 0.5000
+Melhor indivíduo da geração 186: 0.5000
+Melhor indivíduo da geração 187: 0.5000
+Melhor indivíduo da geração 188: 0.5000
+Melhor indivíduo da geração 189: 0.5000
+Melhor indivíduo da geração 190: 0.5000
+Melhor indivíduo da geração 191: 0.5000
+Melhor indivíduo da geração 192: 0.5000
+Melhor indivíduo da geração 193: 0.5000
+Melhor indivíduo da geração 194: 0.5000
+Melhor indivíduo da geração 195: 0.5000
+Melhor indivíduo da geração 196: 0.5000
+Melhor indivíduo da geração 197: 0.5000
+Melhor indivíduo da geração 198: 0.5000
+Melhor indivíduo da geração 199: 0.5000
+Melhor indivíduo da geração 200: 0.5000
+Melhor indivíduo da geração 201: 0.5000
+Melhor indivíduo da geração 202: 0.5000
+Melhor indivíduo da geração 203: 0.5000
+Melhor indivíduo da geração 204: 0.5000
+Melhor indivíduo da geração 205: 1.0000
+Melhor indivíduo da geração 206: 1.0000
+Melhor indivíduo da geração 207: 1.0000
+Melhor indivíduo da geração 208: 1.0000
+Melhor indivíduo da geração 209: 1.0000
+Melhor indivíduo da geração 210: 1.0000
+Melhor indivíduo da geração 211: 1.0000
+Melhor indivíduo da geração 212: 1.0000
+Melhor indivíduo da geração 213: 1.0000
+Melhor indivíduo da geração 214: 1.0000
+Melhor indivíduo da geração 215: 1.0000
+Melhor indivíduo da geração 216: 1.0000
+Melhor indivíduo da geração 217: 1.0000
+Melhor indivíduo da geração 218: 1.0000
+Melhor indivíduo da geração 219: 1.0000
+Melhor indivíduo da geração 220: 1.0000
+Melhor indivíduo da geração 221: 1.0000
+Melhor indivíduo da geração 222: 1.0000
+Melhor indivíduo da geração 223: 1.0000
+Melhor indivíduo da geração 224: 1.0000
+Melhor indivíduo da geração 225: 1.0000
+Melhor indivíduo da geração 226: 1.0000
+Melhor indivíduo da geração 227: 1.0000
+Melhor indivíduo da geração 228: 1.0000
+Melhor indivíduo da geração 229: 1.0000
+Melhor indivíduo da geração 230: 1.0000
+Melhor indivíduo da geração 231: 1.0000
+Melhor indivíduo da geração 232: 1.0000
+Melhor indivíduo da geração 233: 1.0000
+Melhor indivíduo da geração 234: 1.0000
+Melhor indivíduo da geração 235: 1.0000
+Melhor indivíduo da geração 236: 1.0000
+Melhor indivíduo da geração 237: 1.0000
+Melhor indivíduo da geração 238: 1.0000
+Melhor indivíduo da geração 239: 1.0000
+Melhor indivíduo da geração 240: 1.0000
+Melhor indivíduo da geração 241: 1.0000
+Melhor indivíduo da geração 242: 1.0000
+Melhor indivíduo da geração 243: 1.0000
+Melhor indivíduo da geração 244: 1.0000
+Melhor indivíduo da geração 245: 1.0000
+Melhor indivíduo da geração 246: 1.0000
+Melhor indivíduo da geração 247: 1.0000
+Melhor indivíduo da geração 248: 1.0000
+Melhor indivíduo da geração 249: 1.0000
+Melhor indivíduo da geração 250: 1.0000
+Melhor indivíduo da geração 251: 1.0000
+Melhor indivíduo da geração 252: 1.0000
+Melhor indivíduo da geração 253: 1.0000
+Melhor indivíduo da geração 254: 1.0000
+Melhor indivíduo da geração 255: 1.0000
+Melhor indivíduo da geração 256: 1.0000
+Melhor indivíduo da geração 257: 1.0000
+Melhor indivíduo da geração 258: 1.0000
+Melhor indivíduo da geração 259: 1.0000
+Melhor indivíduo da geração 260: 1.0000
+Melhor indivíduo da geração 261: 1.0000
+Melhor indivíduo da geração 262: 1.0000
+Melhor indivíduo da geração 263: 1.0000
+Melhor indivíduo da geração 264: 1.0000
+Melhor indivíduo da geração 265: 1.0000
+Melhor indivíduo da geração 266: 1.0000
+Melhor indivíduo da geração 267: 1.0000
+Melhor indivíduo da geração 268: 1.0000
+Melhor indivíduo da geração 269: 1.0000
+Melhor indivíduo da geração 270: 1.0000
+Melhor indivíduo da geração 271: 1.0000
+Melhor indivíduo da geração 272: 1.0000
+Melhor indivíduo da geração 273: 1.0000
+Melhor indivíduo da geração 274: 1.0000
+Melhor indivíduo da geração 275: 1.0000
+Melhor indivíduo da geração 276: 1.0000
+Melhor indivíduo da geração 277: 1.0000
+Melhor indivíduo da geração 278: 1.0000
+Melhor indivíduo da geração 279: 1.0000
+Melhor indivíduo da geração 280: 1.0000
+Melhor indivíduo da geração 281: 1.0000
+Melhor indivíduo da geração 282: 1.0000
+Melhor indivíduo da geração 283: 1.0000
+Melhor indivíduo da geração 284: 1.0000
+Melhor indivíduo da geração 285: 1.0000
+Melhor indivíduo da geração 286: 1.0000
+Melhor indivíduo da geração 287: 1.0000
+Melhor indivíduo da geração 288: 1.0000
+Melhor indivíduo da geração 289: 1.0000
+Melhor indivíduo da geração 290: 1.0000
+Melhor indivíduo da geração 291: 1.0000
+Melhor indivíduo da geração 292: 1.0000
+Melhor indivíduo da geração 293: 1.0000
+Melhor indivíduo da geração 294: 1.0000
+Melhor indivíduo da geração 295: 1.0000
+Melhor indivíduo da geração 296: 1.0000
+Melhor indivíduo da geração 297: 1.0000
+Melhor indivíduo da geração 298: 1.0000
+Melhor indivíduo da geração 299: 1.0000
+Melhor indivíduo da geração 300: 1.0000
+Melhor indivíduo da geração 301: 1.0000
+Melhor indivíduo da geração 302: 1.0000
+Melhor indivíduo da geração 303: 2.0000
+
+Process finished with exit code 0

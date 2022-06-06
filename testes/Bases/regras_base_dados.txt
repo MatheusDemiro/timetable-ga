@@ -1,0 +1,21 @@
+Aulas no mesmo período precisam de mais dias de disponibilidade.
+
+Professor com 10 aulas precisa dos 5 dias na semana para o horário ficar mais flexível (podendo fechar em 4 dias).
+Professor com disciplinas que possuem 3 aulas precisam de um intervalo maior de dias para evitarem aulas de uma mesma disciplina no mesmo dia.
+Professores com duas disciplinas podem aplicar suas aulas em no mínimo 2 dias. O ideal seria colocar 3 dias para evitar conflitos e aulas de uma mesma disciplina no mesmo dia.
+
+Professores com uma disciplina de 2 aulas precisam de no mínimo 2 dias.
+Professores com uma disciplina de 3 aulas precisam de no mínimo 3 dias.
+Professores com três disciplinas e 6 aulas precisam de no mínimo 3 dias. Caso possua disciplinas no mesmo período colocar 4 dias de disponibilidade.
+Professores com duas disciplinas de 3 aulas cada precisam de no mínimo 3 dias. Caso possua mais uma disciplina com duas aulas é necessário definir 4 dias de disponibilidade. Acima disso considerar os 5 dias da semana.
+Professores com duas disciplinas de 2 aulas (4 aulas no total) precisam de no mínimo 2 dias (3 dias para maior flexibilidade).
+
+
+1 - Se um professor leciona aula em um período com 5 disciplinas, então ele deve ter no mínimo 3 dias de disponibilidade.
+2 - Se um professor leciona duas disciplinas em um mesmo período, então ele deve ter no mínimo 4 dias de disponibilidade.
+2 - Se um professor leciona 8 aulas na semana, então ele deve ter no mínimo 4 dias de disponibilidade.
+3 - Se um professor leciona mais do que 8 aulas na semana, então ele deve ter 5 dias de disponibilidade.
+4 - Se um professor leciona 8 aulas e possui duas disciplinas com 3 aulas na semana cada uma, então ele deve ter 5 dias de disponibilidade.
+5 - Se nenhuma das regras acima forem cumpridas, então deve-se atribuir uma disponibilidade mínima de 3 dias.
+
+As regras se somam em caso de conflitos, podendo chegar a no máximo 5 dias. Vale ressaltar que é opcional a soma das regras. Fica a cargo do projetista definir isso ou não.

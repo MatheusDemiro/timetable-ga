@@ -1,36 +1,67 @@
 import itertools
 import random
 
-from settings import WEEK_SIZE, LESSONS_PER_DAY, TOTAL_PERIODS
+from settings import WEEK_SIZE, LESSONS_PER_DAY, PERIODS, EXCLUSIVE_DEDICATION
 
 
 class Evaluation:
     def __init__(self, individual=None):
         if individual is None:
-            individual = [[[None for i in range(3)] for j in range(5)] for k in range(TOTAL_PERIODS)]
+            individual = [[[None for i in range(3)] for j in range(5)] for k in range(max(PERIODS))]
         self.individual = individual
         self.fitness = -1
+        self.summation = {"ap": 0, "vp": 0, "up": 0, "lp": 0, "pf": 0, "ch": 0}
+
+    def set_summation(self, ap, vp, up, lp, pf, is_count = True):
+        if is_count:
+            self.summation["ap"] += ap
+            self.summation["vp"] += vp
+            self.summation["up"] += up
+            self.summation["lp"] += lp
+            self.summation["pf"] += pf
+        else:
+            self.summation["ap"] = ap
+            self.summation["vp"] = vp
+            self.summation["up"] = up
+            self.summation["lp"] = lp
+            self.summation["pf"] = pf
 
     def __eq__(self, other):
         return self.individual == other.individual
 
     def calculate_fitness(self):
         """
-        :return: 1/((summation[x, p=1](ap + vp + up + lp)) + (ch * k)) -> quantidade de infrações do indivíduo
+        :return: 1/((summation[x, p=1](ap + vp + up + lp + pf)) + (ch * k)) -> quantidade de infrações do indivíduo
         """
-        summation = 0
+        summation = -1
         for period in self.individual:
-            ap = self.sum_empty_lessons_first_time(period)
-            vp = self.sum_empty_lessons_between_lessons(period)
-            up = self.sum_lessons_only_last_time(period)
-            lp = self.sum_lessons_same_day(period)
+            ap = self.sum_infractions_empty_lessons_first_time(period)
+            vp = self.sum_infractions_empty_lessons_between_lessons(period)
+            up = self.sum_infractions_lessons_only_last_time(period)
+            lp = self.sum_infractions_lessons_same_day(period)
 
-            summation += ap + vp + up + lp
+            if not EXCLUSIVE_DEDICATION:
+                pf = self.sum_infractions_preferences(period)
+            else:
+                pf = 0
+
+            # print("AP: %d, VP: %d, UP: %d, LP: %d, PF: %d" % (ap, vp, up, lp, pf))
+
+            if summation == -1:
+                summation = 0
+                self.set_summation(ap, vp, up, lp, pf, False)
+            else:
+                self.set_summation(ap, vp, up, lp, pf)
+
+            summation += ap + vp + up + lp + pf
 
         ch = self.sum_timing_clashes_between_periods()
         k = 10
 
+        self.summation["ch"] = ch
         summation += (ch * k)
+
+        # print("CH: %d, SUM: %d" % (ch, summation))
 
         if summation > 0:
             self.fitness = 1 / summation
@@ -69,11 +100,17 @@ class Evaluation:
                 lesson_x, lesson_y = lessons_of_day[index_x], lessons_of_day[index_y]
                 if lessons_of_day[index_x] is not None and lessons_of_day[index_y] is not None:
                     if lesson_x.id == lesson_y.id:
-                        # Selecionar turmas do período que não sejam ministradas pelo professor
+                        # Selecionando turmas do período que não sejam ministradas pelo professor
                         lessons = self.get_non_teacher_lessons(lesson_x.teacher, period, day)
 
+                        # Priorizando os primeiros horários vagos do dia
+                        empty_lessons_first_time = list(filter(lambda x: None in x and x[1] == 0, lessons))
+
                         # Selecionando aleatoriamente um elemento da "lessons"
-                        position = lessons[random.randrange(len(lessons))]
+                        if empty_lessons_first_time.__len__() > 0:
+                            position = empty_lessons_first_time[random.randrange(len(empty_lessons_first_time))]
+                        else:
+                            position = lessons[random.randrange(len(lessons))]
                         lesson = self.individual[period][position[0]][position[1]]
 
                         # Trocando turmas de dia (lesson_x e lesson)
@@ -91,18 +128,40 @@ class Evaluation:
                     if lesson_x.teacher.id == lesson_y.teacher.id:
                         if random_index == 0:
                             # Definindo listas de prioridades considerando period_x
-                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_x)
+                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_x,
+                                                                                                               lesson_x)
 
                             # Aplicando prioridades
-                            self.apply_priorities(period_x, empty_lessons_first_time, empty_lessons_second_time, lessons,
+                            self.apply_priorities(period_x, empty_lessons_first_time, empty_lessons_second_time,
+                                                  lessons,
                                                   (column, row))
                         else:
                             # Definindo listas de prioridades considerando period_y
-                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_y)
+                            empty_lessons_first_time, empty_lessons_second_time, lessons = self.get_priorities(period_y,
+                                                                                                               lesson_y)
 
                             # Aplicando prioridades
-                            self.apply_priorities(period_y, empty_lessons_first_time, empty_lessons_second_time, lessons,
+                            self.apply_priorities(period_y, empty_lessons_first_time, empty_lessons_second_time,
+                                                  lessons,
                                                   (column, row))
+
+    def fix_teachers_preferences(self, period):
+        """
+        Corrigindo a disponibilidade dos professores
+        :param period: indíce do período selecionado
+        :return: None
+        """
+        for day in range(WEEK_SIZE):
+            lessons_of_day = self.individual[period][day]
+            for index_lesson in range(len(lessons_of_day)):
+                if lessons_of_day[index_lesson] is not None:
+                    teacher = lessons_of_day[index_lesson].teacher
+                    if not self.verify_availability(teacher.availabilities, day):
+                        day_of_week = teacher.availabilities[random.randrange(len(teacher.availabilities))].day_of_week
+                        time_of_day = random.randrange(LESSONS_PER_DAY)
+                        aux = self.individual[period][day_of_week][time_of_day]
+                        self.individual[period][day_of_week][time_of_day] = self.individual[period][day][index_lesson]
+                        self.individual[period][day][index_lesson] = aux
 
     def apply_priorities(self, period, priorities_1, priorities_2, priorities_3, indexes):
         """
@@ -139,22 +198,27 @@ class Evaluation:
         period[random_lesson[0]][random_lesson[1]] = aux
 
     @staticmethod
-    def get_priorities(period):
+    def get_priorities(period, lesson):
         empty_lessons_first_time = []
         empty_lessons_second_time = []
         lessons = []
+        availabilities = list(map(lambda x: x.day_of_week, lesson.teacher.availabilities))
 
         for column in range(WEEK_SIZE):
-            if period[column][0] is None:
-                empty_lessons_first_time.append((column, 0))
-            if period[column][1] is None:
-                empty_lessons_second_time.append((column, 1))
-            for row in range(LESSONS_PER_DAY):
-                if row <= 1:
-                    if period[column][row] is not None:
-                        lessons.append((column, row))
-                else:
-                    lessons.append((column, row))
+            # Analisando se o dia a ser analisado pertence a lista de disponibilidade do professor
+            if column in availabilities:
+                if period[column][0] is None:
+                    empty_lessons_first_time.append((column, 0))
+                if period[column][1] is None:
+                    empty_lessons_second_time.append((column, 1))
+                for row in range(LESSONS_PER_DAY):
+                    # Verificando se a disciplina restante não é igual a que deve ser trocada
+                    if period[column][row] != lesson:
+                        if row <= 1:
+                            if period[column][row] is not None:
+                                lessons.append((column, row))
+                        else:
+                            lessons.append((column, row))
 
         return empty_lessons_first_time, empty_lessons_second_time, lessons
 
@@ -180,7 +244,7 @@ class Evaluation:
         return False
 
     @staticmethod
-    def sum_empty_lessons_first_time(period):
+    def sum_infractions_empty_lessons_first_time(period):
         """
         :param period: objeto período
         :return: quantidade de aulas vagas no primeiro horário, desde que possua aula no segundo horário
@@ -192,12 +256,12 @@ class Evaluation:
 
         return total
 
+    """
+    :param period: objeto período
+    :return: quantidade de aulas vagas entre aulas
+    """
     @staticmethod
-    def sum_empty_lessons_between_lessons(period):
-        """
-        :param period: objeto período
-        :return: quantidade de aulas vagas entre aulas
-        """
+    def sum_infractions_empty_lessons_between_lessons(period):
         total = 0
         for lessons_of_day in period:
             if lessons_of_day[0] is not None and lessons_of_day[1] is None and lessons_of_day[2] is not None:
@@ -205,12 +269,12 @@ class Evaluation:
 
         return total
 
+    """
+    :param period: objeto período
+    :return: quantidade de aulas que são ofertadas apenas no último horário
+    """
     @staticmethod
-    def sum_lessons_only_last_time(period):
-        """
-        :param period: objeto período
-        :return: quantidade de aulas que são ofertadas apenas no último horário
-        """
+    def sum_infractions_lessons_only_last_time(period):
         total = 0
         for lessons_of_day in period:
             if lessons_of_day[0] is None and lessons_of_day[1] is None and lessons_of_day[2] is not None:
@@ -218,8 +282,12 @@ class Evaluation:
 
         return total
 
+    """
+    :param period: objeto período
+    :return: quantidade de aulas no mesmo dia
+    """
     @staticmethod
-    def sum_lessons_same_day(period):
+    def sum_infractions_lessons_same_day(period):
         total = 0
         for day in range(WEEK_SIZE):
             lessons_of_day = period[day]
@@ -227,6 +295,22 @@ class Evaluation:
                 lesson_x, lesson_y = lessons_of_day[index_x], lessons_of_day[index_y]
                 if lessons_of_day[index_x] is not None and lessons_of_day[index_y] is not None:
                     if lesson_x.id == lesson_y.id:
+                        total += 1
+        return total
+
+    """
+    :param period: objeto período
+    :return: quantidade de infrações de disponibilidade dos professores
+    """
+    @staticmethod
+    def sum_infractions_preferences(period):
+        total = 0
+        for day in range(WEEK_SIZE):
+            lessons_of_day = period[day]
+            for lesson in lessons_of_day:
+                if lesson is not None:
+                    availabilities = list(map(lambda x: x.day_of_week, lesson.teacher.availabilities))
+                    if day not in availabilities:
                         total += 1
         return total
 
@@ -253,3 +337,12 @@ class Evaluation:
                         total += 1
 
         return total
+
+    @staticmethod
+    def verify_availability(availabilities, day):
+        result = False
+        for availability in availabilities:
+            if availability.day_of_week == day:
+                result = True
+                break
+        return result
