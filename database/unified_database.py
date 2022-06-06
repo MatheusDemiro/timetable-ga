@@ -294,7 +294,7 @@ class UnifiedDatabase:
             Availability(teacher_id=self.teachers[4].id, day_of_week=4, teacher=self.teachers[4]),
 
             Availability(teacher_id=self.teachers[6].id, day_of_week=0, teacher=self.teachers[6]),
-            Availability(teacher_id=self.teachers[6].id, day_of_week=2, teacher=self.teachers[6]),
+            Availability(teacher_id=self.teachers[6].id, day_of_week=1, teacher=self.teachers[6]),
             Availability(teacher_id=self.teachers[6].id, day_of_week=3, teacher=self.teachers[6]),
             Availability(teacher_id=self.teachers[6].id, day_of_week=4, teacher=self.teachers[6]),
 
